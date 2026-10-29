@@ -1,0 +1,7 @@
+Snowy Mountain - Terrain by artfromheath
+https://sketchfab.com/3d-models/snowy-mountain-terrain-9fa3c56fd32746bcb0e06cd2c4229ca0
+Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+Source: snowy_mountain_-_terrain.glb downloaded by the project owner.
+Converted to FBX for use in Unity; the original author retains attribution.

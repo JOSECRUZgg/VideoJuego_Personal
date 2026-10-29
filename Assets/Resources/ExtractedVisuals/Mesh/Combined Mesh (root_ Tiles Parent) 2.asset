@@ -1,0 +1,1007 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  serializedVersion: 11
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Combined Mesh (root: Tiles Parent) 2'
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -360, y: -10, z: -300}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 6
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 3
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -360, y: -30, z: 60}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 12
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 6
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -360, y: -10, z: 100}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 18
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 9
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -340, y: -10, z: -360}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 24
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 12
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -340, y: -70, z: 320}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 30
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 15
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -300, y: -10, z: 120}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 36
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 18
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -300, y: -50, z: 360}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 42
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 21
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -280, y: -10, z: -340}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 48
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 24
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -280, y: 10, z: -300}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 54
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 27
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -280, y: 30, z: -260}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 60
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 30
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -260, y: -10, z: -40}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 66
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 33
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -260, y: -10, z: 120}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 72
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 36
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -260, y: -50, z: 200}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 78
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 39
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -260, y: -30, z: 360}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 84
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 42
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -240, y: -30, z: 60}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 90
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 45
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -240, y: -30, z: 300}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 96
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 48
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -220, y: -10, z: -360}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 102
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 51
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -220, y: 10, z: -40}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 108
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 54
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -220, y: -10, z: 360}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 114
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 57
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -200, y: -10, z: -180}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 120
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 60
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -200, y: 10, z: 340}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 126
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 63
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -160, y: 10, z: -60}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 132
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 66
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -160, y: -10, z: 100}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 138
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 69
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -160, y: 10, z: 140}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 144
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 72
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -160, y: 30, z: 180}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 150
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 75
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -120, y: -10, z: -300}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 156
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 78
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -120, y: 30, z: 300}
+      m_Extent: {x: 3.8146973E-06, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 162
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 81
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -100, y: 10, z: -360}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 168
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 84
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -80, y: -10, z: -260}
+      m_Extent: {x: 7.6293945E-06, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 174
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 87
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -80, y: -10, z: 20}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 180
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 90
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -60, y: -10, z: -360}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 186
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 93
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -60, y: -30, z: -40}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 192
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 96
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -60, y: -10, z: 160}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 198
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 99
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -40, y: -10, z: -140}
+      m_Extent: {x: 3.8146973E-06, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 204
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 102
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -40, y: -30, z: -100}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 210
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 105
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -40, y: -10, z: 60}
+      m_Extent: {x: 1.9073486E-06, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 216
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 108
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -40, y: 10, z: 140}
+      m_Extent: {x: 3.8146973E-06, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 222
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 111
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -20, y: 10, z: -240}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 228
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 114
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -8.742277E-07, y: -30, z: 20}
+      m_Extent: {x: 5.006869E-06, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 234
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 117
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 20, y: -10, z: 40}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 240
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 120
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 20, y: 10, z: 120}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 246
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 123
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 60, y: -10, z: 120}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 252
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 126
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 80, y: 10, z: -100}
+      m_Extent: {x: 3.8146973E-06, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 258
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 129
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 80, y: -10, z: -60}
+      m_Extent: {x: 3.8146973E-06, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 264
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 132
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 80, y: -10, z: 180}
+      m_Extent: {x: 7.6293945E-06, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 270
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 135
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 80, y: -10, z: 220}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 276
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 138
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 120, y: -10, z: 20}
+      m_Extent: {x: 7.6293945E-06, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 282
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 141
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 120, y: -10, z: 340}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 288
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 144
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 160, y: 30, z: -300}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 294
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 147
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 160, y: -10, z: -180}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 300
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 150
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 160, y: -10, z: -140}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 306
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 153
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 160, y: 10, z: -100}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 312
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 156
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 160, y: -10, z: 60}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 318
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 159
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 160, y: -10, z: 140}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 324
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 162
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 200, y: 10, z: -60}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 330
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 165
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 200, y: -30, z: 100}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 336
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 168
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 200, y: -10, z: 260}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 342
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 171
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 200, y: -30, z: 300}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 348
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 174
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 220, y: -10, z: -200}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 354
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 177
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 220, y: -30, z: 360}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 360
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 180
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 260, y: -10, z: -160}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 366
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 183
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 260, y: -10, z: 360}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 372
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 186
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 280, y: -30, z: -100}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 378
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 189
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 280, y: -10, z: 140}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 384
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 192
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 280, y: -30, z: 180}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 390
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 195
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 280, y: -10, z: 300}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 396
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 198
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 300, y: -30, z: -160}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 402
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 201
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 320, y: -10, z: -60}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 408
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 204
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 340, y: -10, z: -320}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 414
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 207
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 340, y: -10, z: -200}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 420
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 210
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 340, y: -10, z: 280}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 426
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 213
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 360, y: -10, z: -100}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 432
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 216
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 360, y: -10, z: 20}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 438
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 219
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 360, y: -30, z: 140}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 444
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 222
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -360, y: -10, z: -220}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 450
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 225
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -280, y: -10, z: -260}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 456
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 228
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -220, y: -30, z: 8.742278E-07}
+      m_Extent: {x: 20, y: 10, z: 2.6226835E-06}
+  - serializedVersion: 2
+    firstByte: 462
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 231
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -180, y: -10, z: 8.742278E-07}
+      m_Extent: {x: 20, y: 10, z: 2.6226835E-06}
+  - serializedVersion: 2
+    firstByte: 468
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 234
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -160, y: -10, z: 140}
+      m_Extent: {x: 0, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 474
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 237
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -80, y: -30, z: -300}
+      m_Extent: {x: 7.6293945E-06, y: 10, z: 20}
+  - serializedVersion: 2
+    firstByte: 480
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 240
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -60, y: -30, z: -360}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 486
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 243
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 100, y: -30, z: 360}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 492
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 246
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 140, y: -10, z: -40}
+      m_Extent: {x: 20, y: 10, z: 1.9073486E-06}
+  - serializedVersion: 2
+    firstByte: 498
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 249
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 220, y: -30, z: -120}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - serializedVersion: 2
+    firstByte: 504
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 252
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: 260, y: -10, z: -320}
+      m_Extent: {x: 20, y: 10, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes:
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data:
+  m_MeshCompression: 0
+  m_IsReadable: 0
+  m_KeepVertices: 0
+  m_KeepIndices: 0
+  m_IndexFormat: 0
+  m_IndexBuffer: 0200010000000500040003000800070006000b000a0009000e000d000c00110010000f001400130012001700160015001a00190018001d001c001b0020001f001e002300220021002600250024002900280027002c002b002a002f002e002d003200310030003500340033003800370036003b003a0039003e003d003c00410040003f004400430042004700460045004a00490048004d004c004b0050004f004e005300520051005600550054005900580057005c005b005a005f005e005d006200610060006500640063006800670066006b006a0069006e006d006c00710070006f007400730072007700760075007a00790078007d007c007b0080007f007e008300820081008600850084008900880087008c008b008a008f008e008d009200910090009500940093009800970096009b009a0099009e009d009c00a100a0009f00a400a300a200a700a600a500aa00a900a800ad00ac00ab00b000af00ae00b300b200b100b600b500b400b900b800b700bc00bb00ba00bf00be00bd00c200c100c000c500c400c300c800c700c600cb00ca00c900ce00cd00cc00d100d000cf00d400d300d200d700d600d500da00d900d800dd00dc00db00e000df00de00e300e200e100e600e500e400e900e800e700ec00eb00ea00ef00ee00ed00f200f100f000f500f400f300f800f700f600fb00fa00f900fe00fd00fc00
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 255
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 1
+      dimension: 52
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 20
+      format: 1
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 6120
+    _typelessdata: 0000b4c30000000000008cc3003c000002000000003c003c0000b4c3000000000000a0c3003c0000020000000000003c0000b4c30000a0c100008cc3003c000002000000003c00380000b4c3000020c20000a042003c000002800000000000380000b4c30000a0c10000a042003c0000028000000000003c0000b4c3000020c200002042003c000002800000003c003c0000b4c3000000000000a04200bc000002000000003c003c0000b4c3000000000000f04200bc0000020000000000003c0000b4c30000a0c10000a04200bc000002000000003c00380000a0c3000000000000b4c30000000000bc0000003c003c0000b4c3000000000000b4c30000000000bc00000000003c0000a0c30000a0c10000b4c30000000000bc0000003c00380000b4c3000070c20000a04300000000003c0000003c003c0000a0c3000070c20000a04300000000003c00000000003c0000b4c30000a0c20000a04300000000003c0000003c00380000a0c30000a0c10000f04200000000003c0000000000380000a0c3000000000000f04200000000003c00000000003c00008cc30000a0c10000f04200000000003c0000003c003c00008cc3000070c20000b4430000000000bc00000000003800008cc3000020c20000b4430000000000bc00000000003c0000a0c3000070c20000b4430000000000bc0000003c003c00008cc3000000000000b4c300bc000002000000003c003c00008cc3000000000000a0c300bc0000020000000000003c00008cc30000a0c10000b4c300bc000002000000003c003800008cc368192c2900008cc3003c0000028000000000003800008cc30000a04100008cc3003c0000028000000000003c00008cc368192c290000a0c3003c000002800000003c003c00008cc30000a041000070c3003c0000028000000000003800008cc300002042000070c3003c0000028000000000003c00008cc30000a04100008cc3003c000002800000003c003c000070c30000a0c1000020c20000000000bc000000000038000070c300000000000020c20000000000bc00000000003c00008cc30000a0c1000020c20000000000bc0000003c003c000070c30000a0c10000f0420000000000bc000000000038000070c3000000000000f0420000000000bc00000000003c00008cc30000a0c10000f0420000000000bc0000003c003c00008cc3000020c20000484300000000003c0000003c003c000070c3000020c20000484300000000003c00000000003c00008cc3000070c20000484300000000003c0000003c003800008cc30000a0c10000b44300000000003c0000003c003c000070c30000a0c10000b44300000000003c00000000003c00008cc3000020c20000b44300000000003c0000003c0038000070c30000a0c10000204200bc000002000000003c003c000070c30000a0c10000a04200bc0000020000000000003c000070c3000020c20000204200bc000002000000003c0038000070c30000a0c100008c4300bc000002000000003c003c000070c30000a0c10000a04300bc0000020000000000003c000070c3000020c200008c4300bc000002000000003c0038000048c3000000000000b4c30000000000bc0000003c003c000070c3000000000000b4c30000000000bc00000000003c000048c30000a0c10000b4c30000000000bc0000003c0038000048c368192c29000020c20000000000bc000000000038000048c30000a041000020c20000000000bc00000000003c000070c368192c29000020c20000000000bc0000003c003c000048c30000a0c10000b4430000000000bc000000000038000048c3000000000000b4430000000000bc00000000003c000070c30000a0c10000b4430000000000bc0000003c003c000048c30000a0c1000048c300bc00000280000000000038000048c300000000000048c300bc0000028000000000003c000048c30000a0c1000020c300bc000002800000003c003c000048c368192c290000a04300bc00000280000000000038000048c30000a0410000a04300bc0000028000000000003c000048c368192c290000b44300bc000002800000003c003c000020c368192c29000020c2003c00000280000000000038000020c30000a041000020c2003c0000028000000000003c000020c368192c290000a0c2003c000002800000003c003c000020c3000000000000a04200bc000002000000003c003c000020c3000000000000f04200bc0000020000000000003c000020c30000a0c10000a04200bc000002000000003c0038000020c368192c2900002043003c00000280000000000038000020c30000a04100002043003c0000028000000000003c000020c368192c290000f042003c000002800000003c003c000020c30000a04100004843003c00000280000000000038000020c30000204200004843003c0000028000000000003c000020c30000a04100002043003c000002800000003c003c0000f0c20000a0c100008cc3003c000002800000000000380000f0c20000000000008cc3003c0000028000000000003c0000f0c20000a0c10000a0c3003c000002800000003c003c0000f0c20000a04100008c4300bc00000280000000000038ffffefc20000204200008c4300bc0000028000000000003c0000f0c20000a0410000a04300bc000002800000003c003c0000f0c268192c290000b4c300000000003c0000000000380000f0c20000a0410000b4c300000000003c00000000003c0000a0c268192c290000b4c300000000003c0000003c003c0100a0c20000000000008cc300bc000002000000003c003cffff9fc200000000000070c300bc0000020000000000003c0100a0c20000a0c100008cc300bc000002000000003c00380000a0c20000a0c100002042003c000002800000000000380000a0c20000000000002042003c0000028000000000003c0000a0c20000a0c100000000003c000002800000003c003c0000a0c20000a0c10000b4c300000000003c0000000000380000a0c2000000000000b4c300000000003c00000000003c000020c20000a0c10000b4c300000000003c0000003c003c0000a0c2000020c2000020c200000000003c0000000000380000a0c20000a0c1000020c200000000003c00000000003c000020c2000020c2000020c200000000003c0000003c003c0000a0c2000000000000204300000000003c0000003c003c000020c2000000000000204300000000003c00000000003c0000a0c20000a0c10000204300000000003c0000003c0038000020c20000a0c1000020c300bc00000280000000000038ffff1fc200000000000020c300bc0000028000000000003c010020c20000a0c10000f0c200bc000002800000003c003c000020c20000a0c10000a0c2003c000002000000003c003c000020c20000a0c10000f0c2003c0000020000000000003c000020c2000020c20000a0c2003c000002000000003c0038ffff1fc20000a0c10000a042003c00000280000000000038000020c2000000000000a042003c0000028000000000003c000020c20000a0c100002042003c000002800000003c003c000020c268192c290000f04200bc00000280000000000038ffff1fc20000a0410000f04200bc0000028000000000003c010020c268192c290000204300bc000002800000003c003c0000000068192c29000070c30000000000bc000000000038000000000000a041000070c30000000000bc00000000003c000020c268192c29000070c30000000000bc0000003c003c3c56c5b60000a0c10000000000bc000002000000003c003c1eab8a360000a0c10000204200bc0000020000000000003cac00a8b6000020c20000000000bc000002000000003c0038000020420000a0c1000020420000000000bc0000000000380000204200000000000020420000000000bc00000000003c000000000000a0c1000020420000000000bc0000003c003c0000000068192c290000f04200000000003c000000000038000000000000a0410000f04200000000003c00000000003c0000204268192c290000f04200000000003c0000003c003c000020420000a0c10000f04200000000003c00000000003800002042000000000000f04200000000003c00000000003c0000a0420000a0c10000f04200000000003c0000003c003c0000a04268192c290000f0c200bc000002800000000000380100a0420000a0410000f0c200bc0000028000000000003c0000a04268192c290000a0c200bc000002800000003c003c0000a0420000a0c10000a0c200bc000002800000000000380100a042000000000000a0c200bc0000028000000000003c0000a0420000a0c1000020c200bc000002800000003c003cffff9f42000000000000204300bc000002000000003c003c0100a042000000000000484300bc0000020000000000003cffff9f420000a0c10000204300bc000002000000003c00380000a0420000000000007043003c000002000000003c003c0000a0420000000000004843003c0000020000000000003c0000a0420000a0c100007043003c000002000000003c0038ffffef42000000000000000000bc000002000000003c003c0100f042000000000000204200bc0000020000000000003cffffef420000a0c10000000000bc000002000000003c00380000f042000000000000b443003c000002000000003c003c0000f042000000000000a043003c0000020000000000003c0000f0420000a0c10000b443003c000002000000003c0038000020430000a0410000a0c300bc0000028000000000003800002043000020420000a0c300bc0000028000000000003c000020430000a04100008cc300bc000002800000003c003c000020430000a0c1000048c300bc000002800000000000380000204300000000000048c300bc0000028000000000003c000020430000a0c1000020c300bc000002800000003c003c000020430000a0c10000f0c2003c0000028000000000003800002043000000000000f0c2003c0000028000000000003c000020430000a0c1000020c3003c000002800000003c003c000020430000a0410000f0c200bc000002000000003c003c000020430000a0410000a0c200bc0000020000000000003c000020430e1301aa0000f0c200bc000002000000003c003800002043000000000000a042003c000002000000003c003c000020430000000000002042003c0000020000000000003c000020430000a0c10000a042003c000002000000003c0038000020430000a0c100002043003c00000280000000000038000020430000000000002043003c0000028000000000003c000020430000a0c10000f042003c000002800000003c003c000048430000a041000020c2003c000002000000003c003c000048430000a0410000a0c2003c0000020000000000003c000048430e1301aa000020c2003c000002000000003c0038000048430000a0c10000f042003c000002000000003c003c000048430000a0c10000a042003c0000020000000000003c00004843000020c20000f042003c000002000000003c0038000048430000a0c10000704300bc0000028000000000003800004843000000000000704300bc0000028000000000003c000048430000a0c100008c4300bc000002800000003c003c000048430000a0c10000a043003c000002000000003c003c000048430000a0c100008c43003c0000020000000000003c00004843000020c20000a043003c000002000000003c00380000704300000000000048c30000000000bc0000003c003c0000484300000000000048c30000000000bc00000000003c000070430000a0c1000048c30000000000bc0000003c003800007043000020c20000b4430000000000bc000000000038000070430000a0c10000b4430000000000bc00000000003c00004843000020c20000b4430000000000bc0000003c003c000070430000a0c1000020c300000000003c0000000000380000704300000000000020c300000000003c00000000003c00008c430000a0c1000020c300000000003c0000003c003c00007043000000000000b44300000000003c0000003c003c00008c43000000000000b44300000000003c00000000003c000070430000a0c10000b44300000000003c0000003c003800008c430000a0c10000f0c200bc000002000000003c003c00008c430000a0c10000a0c200bc0000020000000000003c00008c43000020c20000f0c200bc000002000000003c003800008c430000a0c10000f04200bc0000028000000000003800008c43000000000000f04200bc0000028000000000003c00008c430000a0c10000204300bc000002800000003c003c00008c43000020c20000204300bc0000028000000000003800008c430000a0c10000204300bc0000028000000000003c00008c43000020c20000484300bc000002800000003c003c00008c430000a0c10000a043003c0000028000000000003800008c43000000000000a043003c0000028000000000003c00008c430000a0c100008c43003c000002800000003c003c00008c430000a0c1000020c300000000003c0000003c003c0000a0430000a0c1000020c300000000003c00000000003c00008c43000020c2000020c300000000003c0000003c00380000a0430000a0c1000020c2003c000002800000000000380000a04300000000000020c2003c0000028000000000003c0000a0430000a0c10000a0c2003c000002800000003c003c0000a0430000a0c10000a0c300000000003c0000000000380000a043000000000000a0c300000000003c00000000003c0000b4430000a0c10000a0c300000000003c0000003c003c0000b4430000a0c1000048c30000000000bc0000000000380000b44300000000000048c30000000000bc00000000003c0000a0430000a0c1000048c30000000000bc0000003c003c0000b4430000a0c100008c430000000000bc0000000000380000b4430000000000008c430000000000bc00000000003c0000a0430000a0c100008c430000000000bc0000003c003c0000b4430000a0c10000f0c200bc000002800000000000380000b443000000000000f0c200bc0000028000000000003c0000b4430000a0c10000a0c200bc000002800000003c003c0000b4430000000000002042003c000002000000003c003c0000b4430000000000000000003c0000020000000000003c0000b4430000a0c100002042003c000002000000003c00380000b4430000a0c100002043003c000002000000003c003c0000b4430000a0c10000f042003c0000020000000000003c0000b443000020c200002043003c000002000000003c00380000b4c300000000000070c300bc000002000000003c003c0000b4c300000000000048c300bc0000020000000000003c0000b4c30000a0c1000070c300bc000002000000003c003800008cc300000000000070c3003c000002000000003c003c00008cc30000000000008cc3003c0000020000000000003c00008cc30000a0c1000070c3003c000002000000003c0038000070c30000a0c17aac6a3600000000003c0000003c003c000048c30000a0c17aaceab500000000003c00000000003c000070c3000020c25a01303600000000003c0000003c0038000048c3000000007aac6a3600000000003c0000003c003c000020c3000000007aaceab500000000003c00000000003c000048c30000a0c15a01303600000000003c0000003c0038000020c30000000000002043003c000002000000003c003c000020c3000000000000f042003c0000020000000000003c000020c30000a0c100002043003c000002000000003c00380100a0c20000a0c10000a0c300bc000002000000003c003cffff9fc20000a0c100008cc300bc0000020000000000003c0100a0c2000020c20000a0c300bc000002000000003c00380000a0c20000a0c10000b4c300000000003c0000003c003c000020c20000a0c10000b4c300000000003c00000000003c0000a0c2000020c20000b4c300000000003c0000003c00380000a0420000a0c10000b44300000000003c0000003c003c0000f0420000a0c10000b44300000000003c00000000003c0000a042000020c20000b44300000000003c0000003c00380000f04200000000ffff1fc200000000003c0000003c003c0000204300000000000020c200000000003c00000000003c0000f0420000a0c1ffff1fc200000000003c0000003c0038000070430000a0c10000f0c20000000000bc0000003c003c000048430000a0c10000f0c20000000000bc00000000003c00007043000020c20000f0c20000000000bc0000003c003800007043000000000000a0c300000000003c0000003c003c00008c43000000000000a0c300000000003c00000000003c000070430000a0c10000a0c300000000003c0000003c0038
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: -20, z: 0}
+    m_Extent: {x: 360, y: 60, z: 360}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh:
+  m_BakedTriangleCollisionMesh:
+  m_MeshMetrics[0]: 4
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: -1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path:

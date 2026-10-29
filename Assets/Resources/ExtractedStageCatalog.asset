@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b39390cc615af9c46954fc6343dc972e, type: 3}
+  m_Name: ExtractedStageCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::ExtractedStageCatalog
+  stages:
+  - id: StageForest1
+    floor: {fileID: 2100000, guid: b6f7ce8730e5038268c69cd10312101a, type: 2}
+    ambient: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
+    light: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+    sky: {r: 0, g: 0.48235294, b: 0.6156863, a: 1}
+    intensity: 1
+  - id: StageForest2
+    floor: {fileID: 2100000, guid: 35819bff75d5b930b80b6af24c0de519, type: 2}
+    ambient: {r: 0.7, g: 0.66, b: 0.89, a: 1}
+    light: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+    sky: {r: 0.38431373, g: 0.28235295, b: 0.62352943, a: 1}
+    intensity: 1
+  - id: StageForest3
+    floor: {fileID: 2100000, guid: 1801c69763ec2f66f0869f5754e83221, type: 2}
+    ambient: {r: 0.85, g: 0.65, b: 0.65, a: 1}
+    light: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+    sky: {r: 0.3019608, g: 0.078431375, b: 0.078431375, a: 1}
+    intensity: 1
+  - id: StageDesert1
+    floor: {fileID: 0}
+    ambient: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
+    light: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+    sky: {r: 0.9254902, g: 0.8156863, b: 0.5921569, a: 1}
+    intensity: 1
+  - id: StageDesert2
+    floor: {fileID: 0}
+    ambient: {r: 0.4655, g: 0.5624, b: 0.95, a: 1}
+    light: {r: 0.3647059, g: 0.63529414, b: 1, a: 1}
+    sky: {r: 0.4227483, g: 0.62109035, b: 0.9433962, a: 1}
+    intensity: 1
+  - id: StageDesert3
+    floor: {fileID: 0}
+    ambient: {r: 0.82, g: 0.63, b: 0.62, a: 1}
+    light: {r: 0.8784314, g: 0.7411765, b: 0.7176471, a: 1}
+    sky: {r: 0.5764706, g: 0.1882353, b: 0.1882353, a: 1}
+    intensity: 0.75

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 35d3161df228ce6408c7fc3f6eaa65a6
+timeCreated: 1527625966
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109065
+  packageName: Altar Ruins Free
+  packageVersion: 2.0
+  assetPath: Assets/Altar_Ruins_FREE/Prefabs/Old/Separated/Stone_slab_1.prefab
+  uploadId: 707405

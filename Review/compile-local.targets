@@ -1,0 +1,15 @@
+<Project>
+  <ItemGroup Condition="'$(MSBuildProjectName)' == 'Assembly-CSharp'">
+    <Compile Remove="Assets\Scripts\**\*.cs" />
+    <Compile Include="Assets\Scripts\**\*.cs" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(MSBuildProjectName)' == 'Assembly-CSharp-Editor'">
+    <Compile Remove="Assets\Editor\**\*.cs" />
+    <Compile Include="Assets\Editor\**\*.cs" />
+  </ItemGroup>
+  <Target Name="SkipMissingUnityAnalyzers" BeforeTargets="CoreCompile">
+    <ItemGroup>
+      <Analyzer Remove="@(Analyzer)" Condition="!Exists('%(Analyzer.Identity)')" />
+    </ItemGroup>
+  </Target>
+</Project>

@@ -1,0 +1,16 @@
+<Project>
+  <Target Name="IncludeAllScripts" BeforeTargets="CoreCompile">
+    <ItemGroup Condition="'$(MSBuildProjectName)' == 'Assembly-CSharp'">
+      <Compile Remove="$(MSBuildProjectDirectory)\Assets\**\*.cs" />
+      <Compile Include="$(MSBuildProjectDirectory)\Assets\**\*.cs"
+               Exclude="$(MSBuildProjectDirectory)\Assets\**\Editor\**\*.cs;$(MSBuildProjectDirectory)\Assets\**\Editor\*.cs;$(MSBuildProjectDirectory)\Assets\TutorialInfo\Editor\*.cs;$(MSBuildProjectDirectory)\Assets\Polytope Studio\Welcome_Screen\Editor\*.cs" />
+    </ItemGroup>
+    <ItemGroup Condition="'$(MSBuildProjectName)' == 'Assembly-CSharp-Editor'">
+      <Compile Remove="$(MSBuildProjectDirectory)\Assets\**\Editor\**\*.cs;$(MSBuildProjectDirectory)\Assets\**\Editor\*.cs;$(MSBuildProjectDirectory)\Assets\TutorialInfo\Editor\*.cs;$(MSBuildProjectDirectory)\Assets\Polytope Studio\Welcome_Screen\Editor\*.cs" />
+      <Compile Include="$(MSBuildProjectDirectory)\Assets\**\Editor\**\*.cs;$(MSBuildProjectDirectory)\Assets\**\Editor\*.cs;$(MSBuildProjectDirectory)\Assets\TutorialInfo\Editor\*.cs;$(MSBuildProjectDirectory)\Assets\Polytope Studio\Welcome_Screen\Editor\*.cs" />
+    </ItemGroup>
+  </Target>
+  <ItemGroup>
+    <Analyzer Remove="@(Analyzer)" />
+  </ItemGroup>
+</Project>

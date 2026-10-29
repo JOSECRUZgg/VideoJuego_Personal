@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f49e82d67fd04e5428b178ab5748a983
+timeCreated: 1527625974
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109065
+  packageName: Altar Ruins Free
+  packageVersion: 2.0
+  assetPath: Assets/Altar_Ruins_FREE/Prefabs/Old/Separated/Wall_broken_1.prefab
+  uploadId: 707405

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 2a9cca6d8a1d62345ad69c9e8220564c
+timeCreated: 1527625908
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109065
+  packageName: Altar Ruins Free
+  packageVersion: 2.0
+  assetPath: Assets/Altar_Ruins_FREE/Prefabs/Old/Separated/Flag_beam.prefab
+  uploadId: 707405

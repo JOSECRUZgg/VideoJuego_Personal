@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7720108665483474882c1a91faa3f5a2
+timeCreated: 1527625225
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109065
+  packageName: Altar Ruins Free
+  packageVersion: 2.0
+  assetPath: Assets/Altar_Ruins_FREE/Prefabs/Old/Separated/Altar_2.prefab
+  uploadId: 707405

@@ -1,0 +1,95 @@
+Personajes completos: 21. Etapas: 3.
+Arma: Amog / WeaponPoisonFlask -> mb_poison
+Personaje: Amog -> Assets/Resources/ExtractedVisuals/GameObject/Amog.prefab
+  Animación: AnimatorAmogus / 5 clips.
+Arma: Athena / WeaponAegis -> mb_aegis
+Personaje: Athena -> Assets/Resources/ExtractedVisuals/GameObject/Athena.prefab
+  Animación: AnimatorAthena / 5 clips.
+Arma: Bandit_0 / WeaponDexecutioner -> mb_dexecutioner
+Personaje: Bandit_0 -> Assets/Resources/ExtractedVisuals/GameObject/Bandit.prefab
+  Animación: AnimatorBandit / 6 clips.
+Arma: Birdo / WeaponTornado -> mb_tornado
+Personaje: Birdo -> Assets/Resources/ExtractedVisuals/GameObject/Birdo.prefab
+  Animación: AnimatorBirdo / 6 clips.
+Arma: Bush_0 / WeaponSniper -> mb_sniper
+Personaje: Bush_0 -> Assets/Resources/ExtractedVisuals/GameObject/George.prefab
+  Animación: AnimatorBush / 5 clips.
+Arma: Calcium / WeaponBone -> mb_bone
+Personaje: Calcium -> Assets/Resources/ExtractedVisuals/GameObject/Calcium.prefab
+  Animación: CalciumAController / 6 clips.
+Arma: Chadwell / WeaponCorruptedSword -> mb_corrupted
+Personaje: Chadwell -> Assets/Resources/ExtractedVisuals/GameObject/CorruptedKnight.prefab
+  Animación: CorruptedKnightAnimator / 5 clips.
+Arma: Clank / WeaponRevolver -> mb_revolver
+Personaje: Clank -> Assets/Resources/ExtractedVisuals/GameObject/RobotCowboy.prefab
+  Animación: CowboyAnimator / 6 clips.
+Arma: Dicehead / WeaponDice -> mb_dice
+Personaje: Dicehead -> Assets/Resources/ExtractedVisuals/GameObject/Dicehead.prefab
+  Animación: AnimatorDicehead / 5 clips.
+Arma: Fox / WeaponFireStaff -> mb_fire
+Personaje: Fox -> Assets/Resources/ExtractedVisuals/GameObject/FoxWizard.prefab
+  Animación: AnimatorFox2 / 5 clips.
+Arma: Knight / WeaponSword -> mb_sword
+Personaje: Knight -> Assets/Resources/ExtractedVisuals/GameObject/Knight.prefab
+  Animación: KnightAnimator / 5 clips.
+Arma: Megachad / WeaponAura -> mb_aura
+Personaje: Megachad -> Assets/Resources/ExtractedVisuals/GameObject/B_Megachad.prefab
+  Animación: AnimatorMegachad / 5 clips.
+Arma: Monke / WeaponBananarang -> mb_banana
+Personaje: Monke -> Assets/Resources/ExtractedVisuals/GameObject/Monke.prefab
+  Animación: AnimatorMonke / 5 clips.
+Arma: Ninja / WeaponKatana -> mb_katana
+Personaje: Ninja -> Assets/Resources/ExtractedVisuals/GameObject/Ninja.prefab
+  Animación: AnimatorBandit / 5 clips.
+Arma: Noelle / WeaponFrostWalker -> mb_frost
+Personaje: Noelle -> Assets/Resources/ExtractedVisuals/GameObject/Noelle.prefab
+  Animación: AnimatorNoelle / 5 clips.
+Arma: Ogre / WeaponAxe -> mb_axe
+Personaje: Ogre -> Assets/Resources/ExtractedVisuals/GameObject/Ogre.prefab
+  Animación: AnimatorOrc2 / 6 clips.
+Arma: Roberto / WeaponScythe -> mb_scythe
+Personaje: Roberto -> Assets/Resources/ExtractedVisuals/GameObject/Roberto.prefab
+  Animación: AnimatorGhost / 5 clips.
+Arma: Robinette / WeaponBow -> mb_bow
+Personaje: Robinette -> Assets/Resources/ExtractedVisuals/GameObject/Robinette.prefab
+  Animación: AnimatorRobinette / 6 clips.
+Arma: Spaceman / WeaponBlackHole -> mb_blackhole
+Personaje: Spaceman -> Assets/Resources/ExtractedVisuals/GameObject/Astronaut.prefab
+  Animación: AniamtorAstronaut / 5 clips.
+Arma: TonyMcZoom / WeaponWirelessDagger -> mb_dagger
+Personaje: TonyMcZoom -> Assets/Resources/ExtractedVisuals/GameObject/HoverGuy.prefab
+  Animación: AnimatorHoverGuy / 5 clips.
+Arma: Vlad / WeaponBloodMagic -> mb_blood
+Personaje: Vlad -> Assets/Resources/ExtractedVisuals/GameObject/BloodMage.prefab
+  Animación: AnimatorBloodMage / 5 clips.
+StageDesert1: 8 / Ladnmark1_0, Ladnmark2, Landmark3_0, Landmark4
+StageDesert1: 15 / TilePrefabHouse, TilePrefabHouse2
+StageDesert1: 60 / Rock_4_Small, Rock_10_Small, Rock_11_Small, Rock_12_Small, Rock_13_Small, Rock_14_Small, Rock_15_Small
+StageDesert1: 120 / Cactus1, Cactus2
+StageDesert1: 60 / Log0 1, Log2
+StageDesert1: 15 / DesertTree1, DesertTree2
+StageDesert1: 300 / DesertBush
+StageDesert2: 8 / Ladnmark1_0, Ladnmark2, Landmark3_0, Landmark4
+StageDesert2: 15 / TilePrefabHouse, TilePrefabHouse2
+StageDesert2: 60 / Rock_4_Small, Rock_10_Small, Rock_11_Small, Rock_12_Small, Rock_13_Small, Rock_14_Small, Rock_15_Small
+StageDesert2: 120 / Cactus1, Cactus2
+StageDesert2: 60 / Log0 1, Log2
+StageDesert2: 15 / DesertTree1, DesertTree2
+StageDesert2: 300 / DesertBush
+StageDesert3: 14 / Ladnmark1_0, Ladnmark2, Landmark3_0, Landmark4
+StageDesert3: 15 / TilePrefabHouse, TilePrefabHouse2
+StageDesert3: 100 / Rock_4_Small, Rock_10_Small, Rock_11_Small, Rock_12_Small, Rock_13_Small, Rock_14_Small, Rock_15_Small
+StageDesert3: 120 / Cactus1, Cactus2
+StageDesert3: 60 / Log0 1, Log2
+StageDesert3: 50 / DesertTree1, DesertTree2
+StageDesert3: 300 / DesertBush
+Cofre: Idle, duración 1.417 s
+Cofre: Open, duración 1.083 s
+Cofre: Opened, duración 0.000 s
+Cofre: OpenedBounce, duración 0.833 s
+Cofre: Intro, duración 0.917 s
+Se reutilizan los GUID ya importados; no se regeneran metas. Los GUID remapeados proceden de la importación previa.
+Los cuerpos C# exportados de generación son stubs. Se reconstruye la distribución con parámetros serializados, no una copia exacta del algoritmo perdido.
+El shader compilado original no tiene fuente utilizable; se adapta a URP con sus texturas de arena/pared, escalas y colores.
+Dependencias faltantes o inválidas:
+Ninguna detectada en los recursos integrados.

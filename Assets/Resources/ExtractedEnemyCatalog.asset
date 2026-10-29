@@ -1,0 +1,1759 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fcad7c8ed48442b992bdae2ee60f7, type: 3}
+  m_Name: ExtractedEnemyCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::ExtractedEnemyCatalog
+  schemaVersion: 2
+  entries:
+  - id: Bandit_1
+    material: {fileID: 2100000, guid: 8cca81025f74a07dfde764d96d34e577, type: 2}
+    frames:
+    - {fileID: 4300000, guid: bb76fcba0e270a8ae9ee5ac63356b76f, type: 2}
+    - {fileID: 4300000, guid: 612489519032d5bec4f16c05ee192e22, type: 2}
+    - {fileID: 4300000, guid: b5c6437e9338eb22fa884460300773d3, type: 2}
+    - {fileID: 4300000, guid: 8d6ef5e4880f6ce533f5a5012955bc39, type: 2}
+    - {fileID: 4300000, guid: a1459057841dec89ecc6e72970564f82, type: 2}
+    - {fileID: 4300000, guid: 809f99112dde519537761e2d38ba26fb, type: 2}
+    - {fileID: 4300000, guid: 63afdf45c0f303092e526e6b497d3c35, type: 2}
+    - {fileID: 4300000, guid: b0d9f83e8d4d44c641cb81a7392e31f0, type: 2}
+    fps: 7
+    speed: 10
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 11000
+    damage: 50
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks:
+    - name: BanditAttack
+      charge: 0.4
+      radius: 0.6
+      cooldown: 10
+      initialCooldown: 0
+      range: 15
+      recovery: 3
+      damageMultiplier: 0.8
+      duration: 0
+      endLag: 1
+  - id: Bee_0
+    material: {fileID: 2100000, guid: 2642e201915b9ee0e5a860d7c00c33de, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 9a70770dbad2e00e0a81db8762a72841, type: 2}
+    - {fileID: 4300000, guid: d77c95d28d138bd45c87a9dcb06e1459, type: 2}
+    - {fileID: 4300000, guid: 555567c10e697fefd38198f6d8ed61c2, type: 2}
+    - {fileID: 4300000, guid: 673721d7eba883f2ecec39ed6ac31aee, type: 2}
+    - {fileID: 4300000, guid: 8e2db5ec52461c35c4350a48ad70933b, type: 2}
+    - {fileID: 4300000, guid: 0c9b4e5c9de72216e7dc5272e9423caa, type: 2}
+    fps: 8
+    speed: 6.5
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 1
+    hp: 10
+    damage: 15
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: BoomerSpider
+    material: {fileID: 2100000, guid: f397cae7a4da47cdf856284d2fe3a4b5, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 50090163cc235ca5d1b500bebf781a1c, type: 2}
+    - {fileID: 4300000, guid: 88369df53d23375d9d730abb3691137f, type: 2}
+    - {fileID: 4300000, guid: 57aebbec874cd7d41b74d8a15bc1042b, type: 2}
+    - {fileID: 4300000, guid: 83b94fdfa202971fb16bfce52b694216, type: 2}
+    - {fileID: 4300000, guid: c52bf7359929a81ff1a95d6be4290e26, type: 2}
+    - {fileID: 4300000, guid: d2dd76c73f6d193b63821ac9c27869dd, type: 2}
+    fps: 9
+    speed: 6
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 18
+    damage: 30
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: Bush_1
+    material: {fileID: 2100000, guid: 4994bbcf33908d3d2e32c920c41e36bf, type: 2}
+    frames:
+    - {fileID: 4300000, guid: e466cdfba0f378628650173a9786d212, type: 2}
+    - {fileID: 4300000, guid: 79d8f644b35d58dbac3440d153e55568, type: 2}
+    - {fileID: 4300000, guid: bd90f510e164ff2877f3d3d1e84949b1, type: 2}
+    - {fileID: 4300000, guid: 0f40384d4a06460bce54710e86af1b1e, type: 2}
+    - {fileID: 4300000, guid: 40a362e83cce5e799a2a05b5618351f0, type: 2}
+    - {fileID: 4300000, guid: 6987e6433bd75bc9b76e1afa32fc98c9, type: 2}
+    - {fileID: 4300000, guid: 4d699fed95c241026dd22f13fb5b7d7e, type: 2}
+    - {fileID: 4300000, guid: 5e0c3421888874903197379c97095137, type: 2}
+    - {fileID: 4300000, guid: 60f19e44f8af8b71a599a45506740705, type: 2}
+    - {fileID: 4300000, guid: cec17a3b9d67caf145caf759d34dc8f5, type: 2}
+    fps: 7
+    speed: 8.5
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 10000
+    damage: 45
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks:
+    - name: BushAttack
+      charge: 0.55
+      radius: 0.5
+      cooldown: 12
+      initialCooldown: 0
+      range: 9999
+      recovery: 3
+      damageMultiplier: 0.8
+      duration: 0
+      endLag: 2.5
+  - id: CactusShooter_0
+    material: {fileID: 2100000, guid: 09977cc15e43572683db4738407e2a0c, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 1a6cb32b0b88b8fa385b217f60ad4618, type: 2}
+    - {fileID: 4300000, guid: 533cf2efa58fb93104a4844d835cc0d5, type: 2}
+    - {fileID: 4300000, guid: c7e117ac715ecd636345f8f7d9dcb950, type: 2}
+    - {fileID: 4300000, guid: d6bcb2c292156d29ab1eb0b77b4c2334, type: 2}
+    - {fileID: 4300000, guid: 15fbb40e80a018cdf60b02d90796d417, type: 2}
+    - {fileID: 4300000, guid: 316f4e8663784eab00b571d5a5f21159, type: 2}
+    - {fileID: 4300000, guid: 6615bda5539dcc79407a47b55bb27a42, type: 2}
+    - {fileID: 4300000, guid: 0bd9dc1ba72b52cb0160a1c664b0c496, type: 2}
+    fps: 7
+    speed: 5
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 15
+    damage: 30
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks:
+    - name: CactusProjectile
+      charge: 1
+      radius: 2
+      cooldown: 12
+      initialCooldown: 0
+      range: 999
+      recovery: 1
+      damageMultiplier: 1
+      duration: 0
+      endLag: 1
+  - id: EntStage1
+    material: {fileID: 2100000, guid: ed512cc2929d2e088c5f57fd77a25b14, type: 2}
+    frames:
+    - {fileID: 4300000, guid: b370c7a364db132b47cce12287ee844c, type: 2}
+    - {fileID: 4300000, guid: 354edc63e0b892d97ab623787d0d1d4d, type: 2}
+    - {fileID: 4300000, guid: d504ce47927b9d33cefcebc00aabdf3b, type: 2}
+    - {fileID: 4300000, guid: b15bceaeca5df1e8f2aad0ac6844ad91, type: 2}
+    - {fileID: 4300000, guid: 47d506bc591dfe9971950c6487cbc520, type: 2}
+    - {fileID: 4300000, guid: 7f8c52371b1f32b7f71c3c12996e5165, type: 2}
+    - {fileID: 4300000, guid: e2cb9375517f9845f1f8af5a7cbcfed3, type: 2}
+    - {fileID: 4300000, guid: 8fe17d481f3a85e468392a0da0f5f573, type: 2}
+    - {fileID: 4300000, guid: 17afec7890c4c026c0d27afa12fcd4ee, type: 2}
+    - {fileID: 4300000, guid: bcdaa1731f4bcaa58ecbbc0315a584cd, type: 2}
+    fps: 6
+    speed: 7
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 9000
+    damage: 40
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks:
+    - name: RootAttackContinous
+      charge: 0.9
+      radius: 4
+      cooldown: 15
+      initialCooldown: 0
+      range: 120
+      recovery: 3
+      damageMultiplier: 1
+      duration: 0
+      endLag: 2
+    - name: RootAttackLines3
+      charge: 0.9
+      radius: 4
+      cooldown: 8
+      initialCooldown: 0
+      range: 60
+      recovery: 3
+      damageMultiplier: 1
+      duration: 0
+      endLag: 2
+    - name: RootAttackLineSingle
+      charge: 1
+      radius: 7
+      cooldown: 12
+      initialCooldown: 0
+      range: 70
+      recovery: 3
+      damageMultiplier: 1
+      duration: 0
+      endLag: 2
+    - name: RootAttackSinglePredictive
+      charge: 1
+      radius: 7
+      cooldown: 12
+      initialCooldown: 0
+      range: 300
+      recovery: 3
+      damageMultiplier: 1
+      duration: 0
+      endLag: 2
+    - name: RootAttackClose
+      charge: 1.2
+      radius: 10
+      cooldown: 10
+      initialCooldown: 0
+      range: 15
+      recovery: 3
+      damageMultiplier: 1
+      duration: 0
+      endLag: 2
+  - id: EntStage2
+    material: {fileID: 2100000, guid: c5a5ea6ac65e91381159b38c51b8464b, type: 2}
+    frames:
+    - {fileID: 4300000, guid: b370c7a364db132b47cce12287ee844c, type: 2}
+    - {fileID: 4300000, guid: 354edc63e0b892d97ab623787d0d1d4d, type: 2}
+    - {fileID: 4300000, guid: d504ce47927b9d33cefcebc00aabdf3b, type: 2}
+    - {fileID: 4300000, guid: b15bceaeca5df1e8f2aad0ac6844ad91, type: 2}
+    - {fileID: 4300000, guid: 47d506bc591dfe9971950c6487cbc520, type: 2}
+    - {fileID: 4300000, guid: 7f8c52371b1f32b7f71c3c12996e5165, type: 2}
+    - {fileID: 4300000, guid: e2cb9375517f9845f1f8af5a7cbcfed3, type: 2}
+    - {fileID: 4300000, guid: 8fe17d481f3a85e468392a0da0f5f573, type: 2}
+    - {fileID: 4300000, guid: 17afec7890c4c026c0d27afa12fcd4ee, type: 2}
+    - {fileID: 4300000, guid: bcdaa1731f4bcaa58ecbbc0315a584cd, type: 2}
+    fps: 6
+    speed: 7
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 8000
+    damage: 40
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks:
+    - name: RootAttackContinous
+      charge: 0.85
+      radius: 5
+      cooldown: 13
+      initialCooldown: 0
+      range: 120
+      recovery: 2.5
+      damageMultiplier: 1
+      duration: 0
+      endLag: 1.8
+    - name: RootAttackLineSingle
+      charge: 0.9
+      radius: 7.5
+      cooldown: 12
+      initialCooldown: 0
+      range: 70
+      recovery: 2.5
+      damageMultiplier: 1
+      duration: 0
+      endLag: 1.8
+    - name: RootAttackSinglePredictive
+      charge: 0.9
+      radius: 8
+      cooldown: 12
+      initialCooldown: 0
+      range: 500
+      recovery: 2.5
+      damageMultiplier: 1
+      duration: 0
+      endLag: 1.8
+    - name: RootAttackClose
+      charge: 1.1
+      radius: 11
+      cooldown: 10
+      initialCooldown: 0
+      range: 15
+      recovery: 2.5
+      damageMultiplier: 1
+      duration: 0
+      endLag: 1.8
+  - id: EntStage3
+    material: {fileID: 2100000, guid: 82cab85750d667b0ff591597d6f2eb1a, type: 2}
+    frames:
+    - {fileID: 4300000, guid: b370c7a364db132b47cce12287ee844c, type: 2}
+    - {fileID: 4300000, guid: 354edc63e0b892d97ab623787d0d1d4d, type: 2}
+    - {fileID: 4300000, guid: d504ce47927b9d33cefcebc00aabdf3b, type: 2}
+    - {fileID: 4300000, guid: b15bceaeca5df1e8f2aad0ac6844ad91, type: 2}
+    - {fileID: 4300000, guid: 47d506bc591dfe9971950c6487cbc520, type: 2}
+    - {fileID: 4300000, guid: 7f8c52371b1f32b7f71c3c12996e5165, type: 2}
+    - {fileID: 4300000, guid: e2cb9375517f9845f1f8af5a7cbcfed3, type: 2}
+    - {fileID: 4300000, guid: 8fe17d481f3a85e468392a0da0f5f573, type: 2}
+    - {fileID: 4300000, guid: 17afec7890c4c026c0d27afa12fcd4ee, type: 2}
+    - {fileID: 4300000, guid: bcdaa1731f4bcaa58ecbbc0315a584cd, type: 2}
+    fps: 6
+    speed: 3
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 10000
+    damage: 22
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks:
+    - name: RootAttackContinous
+      charge: 0.7
+      radius: 6
+      cooldown: 13
+      initialCooldown: 0
+      range: 170
+      recovery: 2.25
+      damageMultiplier: 0.85
+      duration: 0
+      endLag: 1.7
+    - name: RootAttackLines3
+      charge: 0.75
+      radius: 7.5
+      cooldown: 8
+      initialCooldown: 0
+      range: 65
+      recovery: 2.25
+      damageMultiplier: 0.85
+      duration: 0
+      endLag: 1.7
+    - name: RootAttackLineSingle
+      charge: 0.8
+      radius: 9
+      cooldown: 12
+      initialCooldown: 0
+      range: 70
+      recovery: 2.25
+      damageMultiplier: 0.85
+      duration: 0
+      endLag: 1.7
+    - name: RootAttackSinglePredictive
+      charge: 0.8
+      radius: 7.5
+      cooldown: 12
+      initialCooldown: 0
+      range: 300
+      recovery: 2.25
+      damageMultiplier: 0.85
+      duration: 0
+      endLag: 1.7
+    - name: RootAttackClose
+      charge: 1.1
+      radius: 11.5
+      cooldown: 10
+      initialCooldown: 0
+      range: 15
+      recovery: 2.25
+      damageMultiplier: 0.85
+      duration: 0
+      endLag: 1.7
+  - id: FrogBlue
+    material: {fileID: 2100000, guid: 55d92f81129c301e469e582764034873, type: 2}
+    frames:
+    - {fileID: 4300000, guid: bf4f0997053b5098fac1b1820e87f799, type: 2}
+    - {fileID: 4300000, guid: 958d3739a28cdd793dccf531e5e44321, type: 2}
+    - {fileID: 4300000, guid: 8dfa033bae985943a9d81efd5fe88451, type: 2}
+    - {fileID: 4300000, guid: 3c10026f8e7795616330d95e6650d92b, type: 2}
+    - {fileID: 4300000, guid: 707e98808baf0cb2b23d7cbb13292deb, type: 2}
+    - {fileID: 4300000, guid: eca2651b2b44b9ee1643a178adeeb8e5, type: 2}
+    fps: 8
+    speed: 9.5
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 1000
+    damage: 1
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: FrogGreen
+    material: {fileID: 2100000, guid: cd4abf0058cbf87acba720fa17a57b0b, type: 2}
+    frames:
+    - {fileID: 4300000, guid: bf4f0997053b5098fac1b1820e87f799, type: 2}
+    - {fileID: 4300000, guid: 958d3739a28cdd793dccf531e5e44321, type: 2}
+    - {fileID: 4300000, guid: 8dfa033bae985943a9d81efd5fe88451, type: 2}
+    - {fileID: 4300000, guid: 3c10026f8e7795616330d95e6650d92b, type: 2}
+    - {fileID: 4300000, guid: 707e98808baf0cb2b23d7cbb13292deb, type: 2}
+    - {fileID: 4300000, guid: eca2651b2b44b9ee1643a178adeeb8e5, type: 2}
+    fps: 8
+    speed: 9
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 1000
+    damage: 1
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: FrogRed
+    material: {fileID: 2100000, guid: f9b826af351551d9a5bdf0367f527623, type: 2}
+    frames:
+    - {fileID: 4300000, guid: bf4f0997053b5098fac1b1820e87f799, type: 2}
+    - {fileID: 4300000, guid: 958d3739a28cdd793dccf531e5e44321, type: 2}
+    - {fileID: 4300000, guid: 8dfa033bae985943a9d81efd5fe88451, type: 2}
+    - {fileID: 4300000, guid: 3c10026f8e7795616330d95e6650d92b, type: 2}
+    - {fileID: 4300000, guid: 707e98808baf0cb2b23d7cbb13292deb, type: 2}
+    - {fileID: 4300000, guid: eca2651b2b44b9ee1643a178adeeb8e5, type: 2}
+    fps: 8
+    speed: 10
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 1000
+    damage: 1
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: GhostGrave1
+    material: {fileID: 2100000, guid: 9af00f2caea5efc549659227d3d61e05, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 7a0f0f45018127cdc4e277c2d87da307, type: 2}
+    - {fileID: 4300000, guid: dbb6676370842bf07b13c2c9931b9702, type: 2}
+    - {fileID: 4300000, guid: 5731bb43951cb693933bba0df4b180e4, type: 2}
+    - {fileID: 4300000, guid: 45c9aa4cb4293c77037383fe9fe9e22f, type: 2}
+    - {fileID: 4300000, guid: 00941151c7427d070a90fe1b37a4405f, type: 2}
+    - {fileID: 4300000, guid: 0fb40dbb1eb9e0ec6b1777a604604f47, type: 2}
+    fps: 6
+    speed: 7
+    spawnAfter: 0
+    rotation: {x: -90, y: 10, z: 0}
+    flying: 1
+    hp: 1100
+    damage: 20
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: GhostGrave2
+    material: {fileID: 2100000, guid: 3acf47e4db3a4fba7e8e5e73ea0dbc14, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 7a0f0f45018127cdc4e277c2d87da307, type: 2}
+    - {fileID: 4300000, guid: dbb6676370842bf07b13c2c9931b9702, type: 2}
+    - {fileID: 4300000, guid: 5731bb43951cb693933bba0df4b180e4, type: 2}
+    - {fileID: 4300000, guid: 45c9aa4cb4293c77037383fe9fe9e22f, type: 2}
+    - {fileID: 4300000, guid: 00941151c7427d070a90fe1b37a4405f, type: 2}
+    - {fileID: 4300000, guid: 0fb40dbb1eb9e0ec6b1777a604604f47, type: 2}
+    fps: 6
+    speed: 7
+    spawnAfter: 0
+    rotation: {x: -90, y: 10, z: 0}
+    flying: 1
+    hp: 2250
+    damage: 25
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: GhostGrave3
+    material: {fileID: 2100000, guid: b7f9aa876731912d85f79bae3fb2989b, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 7a0f0f45018127cdc4e277c2d87da307, type: 2}
+    - {fileID: 4300000, guid: dbb6676370842bf07b13c2c9931b9702, type: 2}
+    - {fileID: 4300000, guid: 5731bb43951cb693933bba0df4b180e4, type: 2}
+    - {fileID: 4300000, guid: 45c9aa4cb4293c77037383fe9fe9e22f, type: 2}
+    - {fileID: 4300000, guid: 00941151c7427d070a90fe1b37a4405f, type: 2}
+    - {fileID: 4300000, guid: 0fb40dbb1eb9e0ec6b1777a604604f47, type: 2}
+    fps: 6
+    speed: 7
+    spawnAfter: 0
+    rotation: {x: -90, y: 10, z: 0}
+    flying: 1
+    hp: 5500
+    damage: 30
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: GhostGrave4
+    material: {fileID: 2100000, guid: 3b87309876d4e2f59151e438ff931273, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 7a0f0f45018127cdc4e277c2d87da307, type: 2}
+    - {fileID: 4300000, guid: dbb6676370842bf07b13c2c9931b9702, type: 2}
+    - {fileID: 4300000, guid: 5731bb43951cb693933bba0df4b180e4, type: 2}
+    - {fileID: 4300000, guid: 45c9aa4cb4293c77037383fe9fe9e22f, type: 2}
+    - {fileID: 4300000, guid: 00941151c7427d070a90fe1b37a4405f, type: 2}
+    - {fileID: 4300000, guid: 0fb40dbb1eb9e0ec6b1777a604604f47, type: 2}
+    fps: 6
+    speed: 7
+    spawnAfter: 0
+    rotation: {x: -90, y: 10, z: 0}
+    flying: 1
+    hp: 9000
+    damage: 35
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: GhostGreater
+    material: {fileID: 2100000, guid: 5c8bd4a1d2777f21dd10d37996be8dee, type: 2}
+    frames:
+    - {fileID: 4300000, guid: aae84ddc59a3bef44fe270bf221d6a90, type: 2}
+    - {fileID: 4300000, guid: f2c854fc370c71b5a965cf64137bd3d8, type: 2}
+    - {fileID: 4300000, guid: 63a5acdf1bf160a0891bbaaf93c34156, type: 2}
+    - {fileID: 4300000, guid: 89af7ab41c1e4f5b8b04d4a06eafadb5, type: 2}
+    - {fileID: 4300000, guid: a932b593e58593c449f83372bd40e6e9, type: 2}
+    - {fileID: 4300000, guid: b6e33e233d10877b317e11931153c61b, type: 2}
+    - {fileID: 4300000, guid: 5d4f910d87c83f96079f8e1e262b4802, type: 2}
+    - {fileID: 4300000, guid: e7399231a8c360e5eafcc322e49c2ded, type: 2}
+    - {fileID: 4300000, guid: 82b74d51b48ed76b3eeaf953a2695f53, type: 2}
+    - {fileID: 4300000, guid: 2acbcdd167dbf4e3c67ce74dd9ad448c, type: 2}
+    - {fileID: 4300000, guid: f6ea8ff22364c2901c267064be32fd8e, type: 2}
+    - {fileID: 4300000, guid: d825a2c1be6a25873c70ed7fe1abbe4f, type: 2}
+    fps: 6
+    speed: 7
+    spawnAfter: 180
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 1
+    hp: 20
+    damage: 13
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: GhostInvincible
+    material: {fileID: 2100000, guid: eac86f85ad51da255cdb09fdc288b975, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 7a0f0f45018127cdc4e277c2d87da307, type: 2}
+    - {fileID: 4300000, guid: dbb6676370842bf07b13c2c9931b9702, type: 2}
+    - {fileID: 4300000, guid: 5731bb43951cb693933bba0df4b180e4, type: 2}
+    - {fileID: 4300000, guid: 45c9aa4cb4293c77037383fe9fe9e22f, type: 2}
+    - {fileID: 4300000, guid: 00941151c7427d070a90fe1b37a4405f, type: 2}
+    - {fileID: 4300000, guid: 0fb40dbb1eb9e0ec6b1777a604604f47, type: 2}
+    fps: 6
+    speed: 6.5
+    spawnAfter: 0
+    rotation: {x: -90, y: 10, z: 0}
+    flying: 1
+    hp: -2147483648
+    damage: -2147483648
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: GhostKingData
+    material: {fileID: 2100000, guid: 5875cc221fdd055769107b060bebbb62, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 985ddb34e82e119731ba81b06ca00d28, type: 2}
+    - {fileID: 4300000, guid: e7fe576f7186e46725786e5903a4bf2c, type: 2}
+    - {fileID: 4300000, guid: 0c8537349008bb601f976709739b626f, type: 2}
+    - {fileID: 4300000, guid: f29e8c2e68f3fbb22a1e21282b7b76a7, type: 2}
+    - {fileID: 4300000, guid: 71ca180f4ff9c10a074e6e85ade3fe28, type: 2}
+    - {fileID: 4300000, guid: f81f75dafd14a25d0178bc5e04ff4079, type: 2}
+    - {fileID: 4300000, guid: a10b9716948d9b207b2f41f2703b3d7a, type: 2}
+    - {fileID: 4300000, guid: f454288e73a7af5bead4d50a941e358e, type: 2}
+    - {fileID: 4300000, guid: 8b2d12eaab7fcc9d521aa50bbad0a9b8, type: 2}
+    - {fileID: 4300000, guid: b9c6a7d6561294cca4b773c488d0dec8, type: 2}
+    - {fileID: 4300000, guid: 3563760e70e3063d269b4cabc5c9a12a, type: 2}
+    - {fileID: 4300000, guid: 2e640de8456961bd23e56f88c335fa95, type: 2}
+    - {fileID: 4300000, guid: 070868948aa223c8e13dc9d1db9d76d7, type: 2}
+    - {fileID: 4300000, guid: 7e73c56b2230e58f690e16e9521ab671, type: 2}
+    - {fileID: 4300000, guid: 39e214f5077322bad1ab2b931c5df836, type: 2}
+    - {fileID: 4300000, guid: 0e2d378a1d3bd0666b325be201e06af5, type: 2}
+    fps: 7
+    speed: 10
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 1
+    hp: 500000
+    damage: 40
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks:
+    - name: DarknessAttack
+      charge: 6.5
+      radius: 0
+      cooldown: 30
+      initialCooldown: 15
+      range: 999
+      recovery: 4
+      damageMultiplier: 1
+      duration: 1
+      endLag: 1
+    - name: GhostRootAttackContinous
+      charge: 0.75
+      radius: 5.25
+      cooldown: 15
+      initialCooldown: 0
+      range: 170
+      recovery: 3
+      damageMultiplier: 0.85
+      duration: 0
+      endLag: 1.7
+    - name: GhostSpikesMultiple
+      charge: 1.5
+      radius: 5.25
+      cooldown: 15
+      initialCooldown: 0
+      range: 600
+      recovery: 4
+      damageMultiplier: 0.8
+      duration: 0
+      endLag: 2
+  - id: GhostPurple_0
+    material: {fileID: 2100000, guid: 82193cf1d1fe833a25c42d8f18d586cd, type: 2}
+    frames:
+    - {fileID: 4300000, guid: aae84ddc59a3bef44fe270bf221d6a90, type: 2}
+    - {fileID: 4300000, guid: f2c854fc370c71b5a965cf64137bd3d8, type: 2}
+    - {fileID: 4300000, guid: 63a5acdf1bf160a0891bbaaf93c34156, type: 2}
+    - {fileID: 4300000, guid: 89af7ab41c1e4f5b8b04d4a06eafadb5, type: 2}
+    - {fileID: 4300000, guid: a932b593e58593c449f83372bd40e6e9, type: 2}
+    - {fileID: 4300000, guid: b6e33e233d10877b317e11931153c61b, type: 2}
+    - {fileID: 4300000, guid: 5d4f910d87c83f96079f8e1e262b4802, type: 2}
+    - {fileID: 4300000, guid: e7399231a8c360e5eafcc322e49c2ded, type: 2}
+    - {fileID: 4300000, guid: 82b74d51b48ed76b3eeaf953a2695f53, type: 2}
+    - {fileID: 4300000, guid: 2acbcdd167dbf4e3c67ce74dd9ad448c, type: 2}
+    - {fileID: 4300000, guid: f6ea8ff22364c2901c267064be32fd8e, type: 2}
+    - {fileID: 4300000, guid: d825a2c1be6a25873c70ed7fe1abbe4f, type: 2}
+    fps: 6
+    speed: 8
+    spawnAfter: 420
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 1
+    hp: 40
+    damage: 20
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: GhostRed_0
+    material: {fileID: 2100000, guid: ded765a352224df3b6222ffdb1b63c5a, type: 2}
+    frames:
+    - {fileID: 4300000, guid: aae84ddc59a3bef44fe270bf221d6a90, type: 2}
+    - {fileID: 4300000, guid: f2c854fc370c71b5a965cf64137bd3d8, type: 2}
+    - {fileID: 4300000, guid: 63a5acdf1bf160a0891bbaaf93c34156, type: 2}
+    - {fileID: 4300000, guid: 89af7ab41c1e4f5b8b04d4a06eafadb5, type: 2}
+    - {fileID: 4300000, guid: a932b593e58593c449f83372bd40e6e9, type: 2}
+    - {fileID: 4300000, guid: b6e33e233d10877b317e11931153c61b, type: 2}
+    - {fileID: 4300000, guid: 5d4f910d87c83f96079f8e1e262b4802, type: 2}
+    - {fileID: 4300000, guid: e7399231a8c360e5eafcc322e49c2ded, type: 2}
+    - {fileID: 4300000, guid: 82b74d51b48ed76b3eeaf953a2695f53, type: 2}
+    - {fileID: 4300000, guid: 2acbcdd167dbf4e3c67ce74dd9ad448c, type: 2}
+    - {fileID: 4300000, guid: f6ea8ff22364c2901c267064be32fd8e, type: 2}
+    - {fileID: 4300000, guid: d825a2c1be6a25873c70ed7fe1abbe4f, type: 2}
+    fps: 6
+    speed: 10
+    spawnAfter: 720
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 1
+    hp: 100
+    damage: 30
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: Ghost_0
+    material: {fileID: 2100000, guid: 070d16d387e9c62601bfee766dead644, type: 2}
+    frames:
+    - {fileID: 4300000, guid: aae84ddc59a3bef44fe270bf221d6a90, type: 2}
+    - {fileID: 4300000, guid: f2c854fc370c71b5a965cf64137bd3d8, type: 2}
+    - {fileID: 4300000, guid: 63a5acdf1bf160a0891bbaaf93c34156, type: 2}
+    - {fileID: 4300000, guid: 89af7ab41c1e4f5b8b04d4a06eafadb5, type: 2}
+    - {fileID: 4300000, guid: a932b593e58593c449f83372bd40e6e9, type: 2}
+    - {fileID: 4300000, guid: b6e33e233d10877b317e11931153c61b, type: 2}
+    - {fileID: 4300000, guid: 5d4f910d87c83f96079f8e1e262b4802, type: 2}
+    - {fileID: 4300000, guid: e7399231a8c360e5eafcc322e49c2ded, type: 2}
+    - {fileID: 4300000, guid: 82b74d51b48ed76b3eeaf953a2695f53, type: 2}
+    - {fileID: 4300000, guid: 2acbcdd167dbf4e3c67ce74dd9ad448c, type: 2}
+    - {fileID: 4300000, guid: f6ea8ff22364c2901c267064be32fd8e, type: 2}
+    - {fileID: 4300000, guid: d825a2c1be6a25873c70ed7fe1abbe4f, type: 2}
+    fps: 6
+    speed: 6
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 1
+    hp: 10
+    damage: 10
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: Ghoul
+    material: {fileID: 2100000, guid: 7653bd695ec00b3f7dde17dde409f3c7, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 5b5ec9ccd65f72b2cee10bb83459c7d2, type: 2}
+    - {fileID: 4300000, guid: 78131c894c1e13f0fb8514061a4dffe7, type: 2}
+    - {fileID: 4300000, guid: e55de5f5679cce5ed311e3fb95b97e83, type: 2}
+    - {fileID: 4300000, guid: f3c15c175ca892af3341186a4fde0b11, type: 2}
+    - {fileID: 4300000, guid: b4356608b652d5a7f9c08d7d85931a61, type: 2}
+    fps: 8
+    speed: 9
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 9
+    damage: 12
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: GoblinStrong_0
+    material: {fileID: 2100000, guid: 5098be5577ebb46cec2b1623d5817530, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 2e7fce91e993473beb9fd9994f2cb582, type: 2}
+    - {fileID: 4300000, guid: edca9234503a08412d44ff60872ac60d, type: 2}
+    - {fileID: 4300000, guid: bdf28f16caa2ee21effe3fea949ecee5, type: 2}
+    - {fileID: 4300000, guid: 56a8709b7d62d674bb4b9c4ec1bf84d0, type: 2}
+    - {fileID: 4300000, guid: a2a86dea7f839aeb09f0ea0f738f2315, type: 2}
+    - {fileID: 4300000, guid: 6442db9a4a1395461598585325ee6d2f, type: 2}
+    - {fileID: 4300000, guid: 993fe2ee410d77c7983f1279e35f0179, type: 2}
+    - {fileID: 4300000, guid: 673e3071a906304ff6dd8a77bb5f88cf, type: 2}
+    fps: 6
+    speed: 5.5
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 15
+    damage: 25
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: GoblinTank_0
+    material: {fileID: 2100000, guid: cdce434e39e5916ecc8561cf7fdf6e1b, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 39331a054620158eda592961a1c1dc79, type: 2}
+    - {fileID: 4300000, guid: 5d4dc5197b1375bb7b1ed17571bac565, type: 2}
+    - {fileID: 4300000, guid: d2c6a19846f0b45505cd11e55c891ec2, type: 2}
+    - {fileID: 4300000, guid: 8d000548291183981423e6e1023b2f11, type: 2}
+    - {fileID: 4300000, guid: 4242bdd409234f8f70cac29fbe6745c6, type: 2}
+    - {fileID: 4300000, guid: f9b8f98441cbe98aa42ed522743c853c, type: 2}
+    - {fileID: 4300000, guid: bb371afb0146f0063b055251558e0674, type: 2}
+    - {fileID: 4300000, guid: af15d5e5f6fcc09a8aa63503f822f00b, type: 2}
+    - {fileID: 4300000, guid: 5c0338d0008cc0348ab91f688b869de0, type: 2}
+    - {fileID: 4300000, guid: 6e58ce77b4e2ceb834821ab69ec97071, type: 2}
+    - {fileID: 4300000, guid: a3413b6960981bc1c1563b4d21a034ef, type: 2}
+    - {fileID: 4300000, guid: 823f27399251ba7240811e8d1aecb52a, type: 2}
+    fps: 6
+    speed: 5
+    spawnAfter: 180
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 40
+    damage: 30
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: GoblinWeak
+    material: {fileID: 2100000, guid: c09f00bc4da7b0388a36da7d798c39ac, type: 2}
+    frames:
+    - {fileID: 4300000, guid: aaf38c4c16babf013fa4e505af690da2, type: 2}
+    - {fileID: 4300000, guid: 416e86c48688a6c7821469c0367fb021, type: 2}
+    - {fileID: 4300000, guid: 8888a7264d3b29ca6ec6f33c0149ec16, type: 2}
+    - {fileID: 4300000, guid: ce191611beaab8143c262e364ed4d70a, type: 2}
+    - {fileID: 4300000, guid: 2eeb528793cdf43a7c84bcaf3669e50f, type: 2}
+    - {fileID: 4300000, guid: 34e24c109fcd07dbfc2dbba063eca629, type: 2}
+    - {fileID: 4300000, guid: a2ac23dcb18acaa4aa55a885caee1d2c, type: 2}
+    - {fileID: 4300000, guid: e06715256da0b9ddc86c97dbe6026eaf, type: 2}
+    fps: 6
+    speed: 5
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 7
+    damage: 15
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: Golem_0
+    material: {fileID: 2100000, guid: d74397492f7b224bf6bc6f2d451f9df9, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 355b6efb4bde3b6fc1fd2f9f10fe1ef5, type: 2}
+    - {fileID: 4300000, guid: 22ef84d02e011ad8da16cdf8ed4854c2, type: 2}
+    - {fileID: 4300000, guid: 6779f1dec1708a7ac73d87bc9ae8b93d, type: 2}
+    - {fileID: 4300000, guid: ca4a35244ac7bcc562f756036c13c2a5, type: 2}
+    - {fileID: 4300000, guid: feaf0493e4376214eb8ed3ab276fb5cf, type: 2}
+    - {fileID: 4300000, guid: 73bdd50a8a3275beea328c5a546f416d, type: 2}
+    - {fileID: 4300000, guid: 1362740610316867e510f854fb0781ed, type: 2}
+    - {fileID: 4300000, guid: e386b6297ddbd0d31b8b1c11b7650ffb, type: 2}
+    fps: 7
+    speed: 5
+    spawnAfter: 90
+    rotation: {x: -90, y: -90, z: 0}
+    flying: 0
+    hp: 20
+    damage: 20
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: Head
+    material: {fileID: 2100000, guid: f5c2d945a26a4166a79bb10ccee9728f, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 37f03a1b6f712cdeac6de41c335b0f8d, type: 2}
+    - {fileID: 4300000, guid: 85f90dea83c625d94d34b4b99a3a6ae7, type: 2}
+    - {fileID: 4300000, guid: 2956d00b1442f0b93ada6501c44fddc3, type: 2}
+    - {fileID: 4300000, guid: 2308dd39d3ce7a8ca12db2413d2abd7f, type: 2}
+    - {fileID: 4300000, guid: dc081cb504ec9e5e77e1303af590082c, type: 2}
+    - {fileID: 4300000, guid: a173d8acedae69461e6cc2ddf2d1587e, type: 2}
+    - {fileID: 4300000, guid: a4fb4d8a581a8f80dc0296e175e2c670, type: 2}
+    - {fileID: 4300000, guid: 25b152d1c0084c30feded46581e0a9e8, type: 2}
+    - {fileID: 4300000, guid: 2fb0effe5d60d0399bcc07a2f8ded54d, type: 2}
+    - {fileID: 4300000, guid: 32ec838e2ddf922fa25652fc889d644a, type: 2}
+    - {fileID: 4300000, guid: 02d3fe4f0d263df2e959db84ce813f62, type: 2}
+    - {fileID: 4300000, guid: 47ffac5c31194a3165c4dcac5f3ccd57, type: 2}
+    - {fileID: 4300000, guid: 4eec0460b31f77e63a338b401200d07f, type: 2}
+    - {fileID: 4300000, guid: 33879383e631683d610f1446956e0292, type: 2}
+    - {fileID: 4300000, guid: 93ade12cc3f628b84286d57e86a9058f, type: 2}
+    fps: 8
+    speed: 7
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 1
+    hp: 12
+    damage: 8
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: Miniboss_Desert_Golem
+    material: {fileID: 2100000, guid: aeea8614ee3ab73cd9945091f83ea805, type: 2}
+    frames:
+    - {fileID: 4300000, guid: a8c6859d55265e5f2c07d015843c93c9, type: 2}
+    - {fileID: 4300000, guid: 4443edd91cb9d0186cde2c24e810da1c, type: 2}
+    - {fileID: 4300000, guid: 5138728098b04a61724d6aac22bd2ee3, type: 2}
+    - {fileID: 4300000, guid: 8e24df9099ac3296f20a14af10466f72, type: 2}
+    - {fileID: 4300000, guid: 1eaa251f242cd34bfbd77c6348ce8df5, type: 2}
+    - {fileID: 4300000, guid: 7a8a09ef448e479b00e959cbf11db905, type: 2}
+    - {fileID: 4300000, guid: 87398bfed92ccaa23246db2d45694f49, type: 2}
+    - {fileID: 4300000, guid: c3fc6f3281f6cc39d8104ac8e81d80fa, type: 2}
+    fps: 5
+    speed: 6
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 250
+    damage: 40
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks:
+    - name: StoneAttack
+      charge: 1
+      radius: 8
+      cooldown: 8
+      initialCooldown: 0
+      range: 17
+      recovery: 3
+      damageMultiplier: 1
+      duration: 0
+      endLag: 1
+    - name: StoneAttackContinous
+      charge: 1.1
+      radius: 5.5
+      cooldown: 16
+      initialCooldown: 0
+      range: 100
+      recovery: 3
+      damageMultiplier: 0.75
+      duration: 0
+      endLag: 1
+  - id: Miniboss_Ghostham
+    material: {fileID: 2100000, guid: 8b2fabed8e86cc47788e836d6ab7a6f3, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 307bcc3e88189ab9247ae9ebd7632b6d, type: 2}
+    - {fileID: 4300000, guid: 3d62176ab1f58fc7ea0525d267d9f2e6, type: 2}
+    - {fileID: 4300000, guid: 626e65e3a3a2a6d14cd783d60a36ece9, type: 2}
+    - {fileID: 4300000, guid: 2d25a7b563964108d5bad85c2a9aa0cf, type: 2}
+    - {fileID: 4300000, guid: d64287ad674e6a062dfaf875c5782dc5, type: 2}
+    - {fileID: 4300000, guid: af83f5f18e278caa459d1b94ad5a60a9, type: 2}
+    - {fileID: 4300000, guid: 2ac9625445093f3e725252e7299245e0, type: 2}
+    - {fileID: 4300000, guid: c6a1d605e7fb1f604929ab54106156c2, type: 2}
+    - {fileID: 4300000, guid: bc41b456d12b8eb1474370b29b53c688, type: 2}
+    - {fileID: 4300000, guid: cb1d18720fa6c7483c9be3a6b6d00718, type: 2}
+    - {fileID: 4300000, guid: b516c87ddd42114731dbfe4308156f58, type: 2}
+    fps: 8
+    speed: 6.5
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 1
+    hp: 320
+    damage: 45
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks:
+    - name: SphereSlam
+      charge: 1.1
+      radius: 9
+      cooldown: 5
+      initialCooldown: 0
+      range: 14
+      recovery: 3
+      damageMultiplier: 1
+      duration: 0
+      endLag: 1
+    - name: PigMudSplash
+      charge: 1
+      radius: 6
+      cooldown: 5
+      initialCooldown: 0
+      range: 400
+      recovery: 3
+      damageMultiplier: 0.7
+      duration: 0
+      endLag: 1
+    - name: PigMudSplashPredictive
+      charge: 1.1
+      radius: 5
+      cooldown: 5
+      initialCooldown: 0
+      range: 400
+      recovery: 3
+      damageMultiplier: 0.7
+      duration: 0
+      endLag: 1
+  - id: Miniboss_Golem
+    material: {fileID: 2100000, guid: 7d34624c225d83056962cca8a6ed596f, type: 2}
+    frames:
+    - {fileID: 4300000, guid: a8c6859d55265e5f2c07d015843c93c9, type: 2}
+    - {fileID: 4300000, guid: 4443edd91cb9d0186cde2c24e810da1c, type: 2}
+    - {fileID: 4300000, guid: 5138728098b04a61724d6aac22bd2ee3, type: 2}
+    - {fileID: 4300000, guid: 8e24df9099ac3296f20a14af10466f72, type: 2}
+    - {fileID: 4300000, guid: 1eaa251f242cd34bfbd77c6348ce8df5, type: 2}
+    - {fileID: 4300000, guid: 7a8a09ef448e479b00e959cbf11db905, type: 2}
+    - {fileID: 4300000, guid: 87398bfed92ccaa23246db2d45694f49, type: 2}
+    - {fileID: 4300000, guid: c3fc6f3281f6cc39d8104ac8e81d80fa, type: 2}
+    fps: 5
+    speed: 6
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 250
+    damage: 40
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks:
+    - name: StoneAttackClose
+      charge: 1
+      radius: 8
+      cooldown: 8
+      initialCooldown: 0
+      range: 17
+      recovery: 3
+      damageMultiplier: 1
+      duration: 0
+      endLag: 1
+    - name: StoneAttackContinous
+      charge: 1.15
+      radius: 6
+      cooldown: 16
+      initialCooldown: 0
+      range: 100
+      recovery: 3
+      damageMultiplier: 0.75
+      duration: 0
+      endLag: 1
+  - id: Miniboss_Pig
+    material: {fileID: 2100000, guid: 8caeb9dfd5da9bf8c8292e7247cab4c2, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 307bcc3e88189ab9247ae9ebd7632b6d, type: 2}
+    - {fileID: 4300000, guid: 3d62176ab1f58fc7ea0525d267d9f2e6, type: 2}
+    - {fileID: 4300000, guid: 626e65e3a3a2a6d14cd783d60a36ece9, type: 2}
+    - {fileID: 4300000, guid: 2d25a7b563964108d5bad85c2a9aa0cf, type: 2}
+    - {fileID: 4300000, guid: d64287ad674e6a062dfaf875c5782dc5, type: 2}
+    - {fileID: 4300000, guid: af83f5f18e278caa459d1b94ad5a60a9, type: 2}
+    - {fileID: 4300000, guid: 2ac9625445093f3e725252e7299245e0, type: 2}
+    - {fileID: 4300000, guid: c6a1d605e7fb1f604929ab54106156c2, type: 2}
+    - {fileID: 4300000, guid: bc41b456d12b8eb1474370b29b53c688, type: 2}
+    - {fileID: 4300000, guid: cb1d18720fa6c7483c9be3a6b6d00718, type: 2}
+    - {fileID: 4300000, guid: b516c87ddd42114731dbfe4308156f58, type: 2}
+    fps: 8
+    speed: 6
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 250
+    damage: 40
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks:
+    - name: SphereSlam
+      charge: 1.1
+      radius: 9
+      cooldown: 5
+      initialCooldown: 0
+      range: 14
+      recovery: 3
+      damageMultiplier: 1
+      duration: 0
+      endLag: 1
+    - name: PigMudSplash
+      charge: 1
+      radius: 6
+      cooldown: 5
+      initialCooldown: 0
+      range: 400
+      recovery: 3
+      damageMultiplier: 0.7
+      duration: 0
+      endLag: 1
+    - name: PigMudSplashPredictive
+      charge: 1.1
+      radius: 5
+      cooldown: 5
+      initialCooldown: 0
+      range: 400
+      recovery: 3
+      damageMultiplier: 0.7
+      duration: 0
+      endLag: 1
+  - id: Miniboss_Scorpion
+    material: {fileID: 2100000, guid: b5df2289ff8756c10015d0fb4da8cdd7, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 9a192ddb449659acb64ecd1cfb28b625, type: 2}
+    - {fileID: 4300000, guid: b86676f2b2bb0e6795a948c5e2ab1eb5, type: 2}
+    - {fileID: 4300000, guid: bb96b1381a5c456c77b776608ab5934c, type: 2}
+    - {fileID: 4300000, guid: bcdf89f32fee7dace49d64cef7208d8b, type: 2}
+    - {fileID: 4300000, guid: 7fb2279df7973e0947df83fe136a502e, type: 2}
+    - {fileID: 4300000, guid: 53b76bfc196482e227c8ea0bef429ac4, type: 2}
+    - {fileID: 4300000, guid: f06eab9c70a9202d4465c7ccfc0efaf7, type: 2}
+    - {fileID: 4300000, guid: ca2bf9ec5d0e668f6368863008b6b7f5, type: 2}
+    fps: 6
+    speed: 7
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 250
+    damage: 35
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks:
+    - name: ScorpionSpikesMultiple
+      charge: 1.5
+      radius: 6
+      cooldown: 16
+      initialCooldown: 0
+      range: 600
+      recovery: 3
+      damageMultiplier: 0.8
+      duration: 0
+      endLag: 2
+    - name: ScorpionSpikesPreditctive
+      charge: 1
+      radius: 7
+      cooldown: 12
+      initialCooldown: 0
+      range: 600
+      recovery: 3
+      damageMultiplier: 1
+      duration: 0
+      endLag: 2
+    - name: ScorpionSpikesHitscan
+      charge: 1
+      radius: 0.6
+      cooldown: 12
+      initialCooldown: 0
+      range: 350
+      recovery: 3
+      damageMultiplier: 0.8
+      duration: 0
+      endLag: 2
+  - id: Miniboss_SkeletonKing
+    material: {fileID: 2100000, guid: 4707ec317c512615e96a1f6950a0c4ba, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 2eb8fd279e43ddfae2b0c56095cd3be4, type: 2}
+    - {fileID: 4300000, guid: 6114f9f6c623f3a2cf31fd49504570b5, type: 2}
+    - {fileID: 4300000, guid: 33f148647eac176a5e2c2dc6f4704970, type: 2}
+    - {fileID: 4300000, guid: c4c088202415e0b79335454a5d6f82ba, type: 2}
+    - {fileID: 4300000, guid: d0480e0e359b29e23cb0a65a84d60026, type: 2}
+    - {fileID: 4300000, guid: f9ae5696a025898a6858312efd751910, type: 2}
+    - {fileID: 4300000, guid: 5a795baf54ad472f3891b8d8ec09d913, type: 2}
+    - {fileID: 4300000, guid: 1268912be9e8a60b87dc78dfa75276d9, type: 2}
+    fps: 7
+    speed: 8
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 320
+    damage: 40
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks:
+    - name: BonePillarsPredictiveMultiple
+      charge: 1
+      radius: 5
+      cooldown: 15
+      initialCooldown: 0
+      range: 9999
+      recovery: 6
+      damageMultiplier: 0.75
+      duration: 0
+      endLag: 1
+    - name: BonePillarsCircles
+      charge: 1
+      radius: 6
+      cooldown: 15
+      initialCooldown: 0
+      range: 9999
+      recovery: 6
+      damageMultiplier: 0.75
+      duration: 0
+      endLag: 1
+    - name: LaserTargetAttack
+      charge: 1
+      radius: 4
+      cooldown: 40
+      initialCooldown: 0
+      range: 400
+      recovery: 8
+      damageMultiplier: 0.05
+      duration: 8
+      endLag: 5
+  - id: Mummy
+    material: {fileID: 2100000, guid: 7835b3f3f8cf33818d53003977603a2a, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 6cc666f507eb5ea239dc7a53b38fed64, type: 2}
+    - {fileID: 4300000, guid: 27a56432ec2ed766cf604197c7777635, type: 2}
+    - {fileID: 4300000, guid: 5d23deb9706e4815d41bb807e9eb43b9, type: 2}
+    - {fileID: 4300000, guid: 7a8401fe8f3f22108114c120eb03dd40, type: 2}
+    - {fileID: 4300000, guid: dc28857cefb725bc0737dcb60c54616c, type: 2}
+    - {fileID: 4300000, guid: 2dcd694b463a533205dac135442cbc25, type: 2}
+    - {fileID: 4300000, guid: a3ee275573817459e166825acc21dba1, type: 2}
+    - {fileID: 4300000, guid: 74472a4e2fb6306335ca479a3e218e40, type: 2}
+    fps: 7
+    speed: 5.5
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 8
+    damage: 13
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: MummyAncient
+    material: {fileID: 2100000, guid: 9e727a5fb5341cc25f411cca9d6b37aa, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 9c35deacb16efb09a4d9d6355cce0928, type: 2}
+    - {fileID: 4300000, guid: d6ba5142c422c7a8744b06c680806b6e, type: 2}
+    - {fileID: 4300000, guid: f6fac4dbe80cbf77d02f72160274bdfc, type: 2}
+    - {fileID: 4300000, guid: c9d4a711328c77c5b4892c0864d0f3d0, type: 2}
+    - {fileID: 4300000, guid: 9fdfb6fec9588486764b401e0f9234de, type: 2}
+    - {fileID: 4300000, guid: 7142a81b1b8de94627c28e533635c3c8, type: 2}
+    - {fileID: 4300000, guid: e53c5e4a7820667e0010c081268087af, type: 2}
+    - {fileID: 4300000, guid: f92741175ce8ab69b098ae48fa778d9c, type: 2}
+    - {fileID: 4300000, guid: 7e41e39d40125d148beb6b5a46296663, type: 2}
+    - {fileID: 4300000, guid: 0f07b3059ddd5505512ede70be79b5d2, type: 2}
+    - {fileID: 4300000, guid: 2555f3e3e32e72c7bb5221da3d5f20c0, type: 2}
+    - {fileID: 4300000, guid: f8460481fade5d9a35a9543fe98dd8a4, type: 2}
+    fps: 7
+    speed: 5
+    spawnAfter: 360
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 70
+    damage: 40
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: MummyTank_0
+    material: {fileID: 2100000, guid: b4742c99b11c5940153e82972e7e7981, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 9c35deacb16efb09a4d9d6355cce0928, type: 2}
+    - {fileID: 4300000, guid: d6ba5142c422c7a8744b06c680806b6e, type: 2}
+    - {fileID: 4300000, guid: f6fac4dbe80cbf77d02f72160274bdfc, type: 2}
+    - {fileID: 4300000, guid: c9d4a711328c77c5b4892c0864d0f3d0, type: 2}
+    - {fileID: 4300000, guid: 9fdfb6fec9588486764b401e0f9234de, type: 2}
+    - {fileID: 4300000, guid: 7142a81b1b8de94627c28e533635c3c8, type: 2}
+    - {fileID: 4300000, guid: e53c5e4a7820667e0010c081268087af, type: 2}
+    - {fileID: 4300000, guid: f92741175ce8ab69b098ae48fa778d9c, type: 2}
+    - {fileID: 4300000, guid: 7e41e39d40125d148beb6b5a46296663, type: 2}
+    - {fileID: 4300000, guid: 0f07b3059ddd5505512ede70be79b5d2, type: 2}
+    - {fileID: 4300000, guid: 2555f3e3e32e72c7bb5221da3d5f20c0, type: 2}
+    - {fileID: 4300000, guid: f8460481fade5d9a35a9543fe98dd8a4, type: 2}
+    fps: 7
+    speed: 5
+    spawnAfter: 180
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 45
+    damage: 30
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: Pharaoh1
+    material: {fileID: 2100000, guid: 2ebd2db0200d716ad2db91414ec7cfee, type: 2}
+    frames:
+    - {fileID: 4300000, guid: dbec8235149d668245c5e680c0ee709f, type: 2}
+    - {fileID: 4300000, guid: 7db4b9dc72cfb8c7d86a1ee763c2baee, type: 2}
+    - {fileID: 4300000, guid: 9b68bf3e75ec4372bfdd4ec7ff4718d7, type: 2}
+    - {fileID: 4300000, guid: 090318751b80a898745f8e9ce23e46ea, type: 2}
+    - {fileID: 4300000, guid: a81127a4e91e33192337fc9670818397, type: 2}
+    - {fileID: 4300000, guid: b16d7e8e7c770c56011dfd92fb5dd69f, type: 2}
+    - {fileID: 4300000, guid: 9f3059915c367c172167c4008867a550, type: 2}
+    - {fileID: 4300000, guid: 967f17df6a5d3fd0fae8c5352bb222c0, type: 2}
+    fps: 6
+    speed: 7
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 8000
+    damage: 40
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks:
+    - name: LaserDiscoAttack
+      charge: 1
+      radius: 4
+      cooldown: 25
+      initialCooldown: 0
+      range: 200
+      recovery: 7
+      damageMultiplier: 0.15
+      duration: 14
+      endLag: 0
+    - name: LaserTargetAttack
+      charge: 1
+      radius: 4
+      cooldown: 40
+      initialCooldown: 0
+      range: 400
+      recovery: 8
+      damageMultiplier: 0.05
+      duration: 8
+      endLag: 5
+    - name: DesertPillarsPredictiveMultiple
+      charge: 1
+      radius: 5
+      cooldown: 15
+      initialCooldown: 0
+      range: 9999
+      recovery: 6
+      damageMultiplier: 0.75
+      duration: 0
+      endLag: 1
+    - name: DesertPillarsCircles
+      charge: 1
+      radius: 8
+      cooldown: 15
+      initialCooldown: 0
+      range: 9999
+      recovery: 6
+      damageMultiplier: 0.75
+      duration: 0
+      endLag: 1
+  - id: Pharaoh2
+    material: {fileID: 2100000, guid: 8ae0eb72b7b7a0cfc9703648835623d2, type: 2}
+    frames:
+    - {fileID: 4300000, guid: dbec8235149d668245c5e680c0ee709f, type: 2}
+    - {fileID: 4300000, guid: 7db4b9dc72cfb8c7d86a1ee763c2baee, type: 2}
+    - {fileID: 4300000, guid: 9b68bf3e75ec4372bfdd4ec7ff4718d7, type: 2}
+    - {fileID: 4300000, guid: 090318751b80a898745f8e9ce23e46ea, type: 2}
+    - {fileID: 4300000, guid: a81127a4e91e33192337fc9670818397, type: 2}
+    - {fileID: 4300000, guid: b16d7e8e7c770c56011dfd92fb5dd69f, type: 2}
+    - {fileID: 4300000, guid: 9f3059915c367c172167c4008867a550, type: 2}
+    - {fileID: 4300000, guid: 967f17df6a5d3fd0fae8c5352bb222c0, type: 2}
+    fps: 6
+    speed: 7
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 8000
+    damage: 40
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks:
+    - name: LaserDiscoAttack
+      charge: 1
+      radius: 4
+      cooldown: 25
+      initialCooldown: 0
+      range: 200
+      recovery: 3.5
+      damageMultiplier: 0.15
+      duration: 15
+      endLag: 0
+    - name: LaserTargetAttack
+      charge: 1
+      radius: 4
+      cooldown: 30
+      initialCooldown: 0
+      range: 400
+      recovery: 5
+      damageMultiplier: 0.05
+      duration: 8
+      endLag: 5
+    - name: DesertPillarsPredictiveMultiple
+      charge: 1
+      radius: 5
+      cooldown: 15
+      initialCooldown: 0
+      range: 9999
+      recovery: 3.5
+      damageMultiplier: 0.75
+      duration: 0
+      endLag: 1
+    - name: DesertPillarsCircles
+      charge: 1
+      radius: 8
+      cooldown: 15
+      initialCooldown: 0
+      range: 9999
+      recovery: 3.5
+      damageMultiplier: 0.75
+      duration: 0
+      endLag: 1
+  - id: Pharaoh3
+    material: {fileID: 2100000, guid: c9133af1fa072ebae53fc255ddbf8a01, type: 2}
+    frames:
+    - {fileID: 4300000, guid: dbec8235149d668245c5e680c0ee709f, type: 2}
+    - {fileID: 4300000, guid: 7db4b9dc72cfb8c7d86a1ee763c2baee, type: 2}
+    - {fileID: 4300000, guid: 9b68bf3e75ec4372bfdd4ec7ff4718d7, type: 2}
+    - {fileID: 4300000, guid: 090318751b80a898745f8e9ce23e46ea, type: 2}
+    - {fileID: 4300000, guid: a81127a4e91e33192337fc9670818397, type: 2}
+    - {fileID: 4300000, guid: b16d7e8e7c770c56011dfd92fb5dd69f, type: 2}
+    - {fileID: 4300000, guid: 9f3059915c367c172167c4008867a550, type: 2}
+    - {fileID: 4300000, guid: 967f17df6a5d3fd0fae8c5352bb222c0, type: 2}
+    fps: 6
+    speed: 3
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 8000
+    damage: 40
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks:
+    - name: LaserDiscoAttack
+      charge: 1
+      radius: 4
+      cooldown: 25
+      initialCooldown: 0
+      range: 200
+      recovery: 2
+      damageMultiplier: 0.15
+      duration: 15
+      endLag: 0
+    - name: LaserTargetAttack
+      charge: 1
+      radius: 4
+      cooldown: 45
+      initialCooldown: 0
+      range: 400
+      recovery: 2
+      damageMultiplier: 0.05
+      duration: 8
+      endLag: 5
+    - name: DesertPillarsPredictiveMultiple
+      charge: 1
+      radius: 5
+      cooldown: 15
+      initialCooldown: 0
+      range: 9999
+      recovery: 3
+      damageMultiplier: 0.75
+      duration: 0
+      endLag: 1
+    - name: DesertPillarsCircles
+      charge: 1
+      radius: 8
+      cooldown: 15
+      initialCooldown: 0
+      range: 9999
+      recovery: 3
+      damageMultiplier: 0.75
+      duration: 0
+      endLag: 1
+  - id: ScorpionBig
+    material: {fileID: 2100000, guid: 4188f1baa45152d27070845a942a1758, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 55af7623fd22c3860122a663d3631b93, type: 2}
+    - {fileID: 4300000, guid: 47cf59e063438ad7a6ad9003f2cd0276, type: 2}
+    - {fileID: 4300000, guid: f1a20aba5adca73aad0ad5f8af1ea204, type: 2}
+    - {fileID: 4300000, guid: 1d1bb4b2cd89dd6eb97984cc722ee68a, type: 2}
+    - {fileID: 4300000, guid: 0940d67ab3a720f92f128ed549af577b, type: 2}
+    - {fileID: 4300000, guid: df9d155317d43c01ce0cae7397d21fb2, type: 2}
+    - {fileID: 4300000, guid: 8ccb3dfd70a776665afd9124a7506f45, type: 2}
+    - {fileID: 4300000, guid: 2134f5baef87dba50a2e24a454305fe7, type: 2}
+    fps: 8
+    speed: 6.5
+    spawnAfter: 180
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 30
+    damage: 30
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: Scorpion_0
+    material: {fileID: 2100000, guid: bac834a57765d105da80dd458c58f4b0, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 55af7623fd22c3860122a663d3631b93, type: 2}
+    - {fileID: 4300000, guid: 47cf59e063438ad7a6ad9003f2cd0276, type: 2}
+    - {fileID: 4300000, guid: f1a20aba5adca73aad0ad5f8af1ea204, type: 2}
+    - {fileID: 4300000, guid: 1d1bb4b2cd89dd6eb97984cc722ee68a, type: 2}
+    - {fileID: 4300000, guid: 0940d67ab3a720f92f128ed549af577b, type: 2}
+    - {fileID: 4300000, guid: df9d155317d43c01ce0cae7397d21fb2, type: 2}
+    - {fileID: 4300000, guid: 8ccb3dfd70a776665afd9124a7506f45, type: 2}
+    - {fileID: 4300000, guid: 2134f5baef87dba50a2e24a454305fe7, type: 2}
+    fps: 8
+    speed: 7
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 16
+    damage: 20
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: Skeleton
+    material: {fileID: 2100000, guid: f63514a16d37c9ce2a44ba32c4417433, type: 2}
+    frames:
+    - {fileID: 4300000, guid: f478b9adf2d8de4d242d872cefe6d3fb, type: 2}
+    - {fileID: 4300000, guid: 9fa921cb6a69c6262e51b7ea015501e0, type: 2}
+    - {fileID: 4300000, guid: 62f6d5eefc728dd2c0a3e048ad898d3f, type: 2}
+    - {fileID: 4300000, guid: 36865abc64a1087c15af67aa3b9fbc84, type: 2}
+    - {fileID: 4300000, guid: c4ada4508245786f7063ee8ccc7d27a4, type: 2}
+    - {fileID: 4300000, guid: fc0ef88b971c1cec54ed83d266214a3e, type: 2}
+    - {fileID: 4300000, guid: 011d3211efdcf8ea5f15254287bc75ff, type: 2}
+    - {fileID: 4300000, guid: 0cc6f0a0ff5a7bfa1c524b9db5faf0a8, type: 2}
+    fps: 8
+    speed: 5.5
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 20
+    damage: 20
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: SkeletonArmored
+    material: {fileID: 2100000, guid: a85d0e56242070199f19de4407589fb2, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 91e84769c6d446da73eafd29767a6e22, type: 2}
+    - {fileID: 4300000, guid: 3e77e8823b4d1b089166ed123331890c, type: 2}
+    - {fileID: 4300000, guid: 4770d6402fd38d870da6f830950d32b0, type: 2}
+    - {fileID: 4300000, guid: 34402eea53595f2eacee9584d605f5a3, type: 2}
+    - {fileID: 4300000, guid: a4e9d50d4ae1c45dbcc09231fd708f6a, type: 2}
+    - {fileID: 4300000, guid: 83214dd53783de3979f97310a1278318, type: 2}
+    - {fileID: 4300000, guid: fa2a7d592a5fe3c35131dd57ecf88018, type: 2}
+    - {fileID: 4300000, guid: 3cff642f4899b2bf26e684b786387916, type: 2}
+    fps: 7
+    speed: 4
+    spawnAfter: 90
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 30
+    damage: 25
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: SkeletonArmoredDusty
+    material: {fileID: 2100000, guid: 8b5d129b7fcd8468d63e376259a5f127, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 91e84769c6d446da73eafd29767a6e22, type: 2}
+    - {fileID: 4300000, guid: 3e77e8823b4d1b089166ed123331890c, type: 2}
+    - {fileID: 4300000, guid: 4770d6402fd38d870da6f830950d32b0, type: 2}
+    - {fileID: 4300000, guid: 34402eea53595f2eacee9584d605f5a3, type: 2}
+    - {fileID: 4300000, guid: a4e9d50d4ae1c45dbcc09231fd708f6a, type: 2}
+    - {fileID: 4300000, guid: 83214dd53783de3979f97310a1278318, type: 2}
+    - {fileID: 4300000, guid: fa2a7d592a5fe3c35131dd57ecf88018, type: 2}
+    - {fileID: 4300000, guid: 3cff642f4899b2bf26e684b786387916, type: 2}
+    fps: 7
+    speed: 4.5
+    spawnAfter: 90
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 25
+    damage: 16
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: SkeletonDusty
+    material: {fileID: 2100000, guid: 4e4bf7cafa879e74a087e3d74de48bb3, type: 2}
+    frames:
+    - {fileID: 4300000, guid: f478b9adf2d8de4d242d872cefe6d3fb, type: 2}
+    - {fileID: 4300000, guid: 9fa921cb6a69c6262e51b7ea015501e0, type: 2}
+    - {fileID: 4300000, guid: 62f6d5eefc728dd2c0a3e048ad898d3f, type: 2}
+    - {fileID: 4300000, guid: 36865abc64a1087c15af67aa3b9fbc84, type: 2}
+    - {fileID: 4300000, guid: c4ada4508245786f7063ee8ccc7d27a4, type: 2}
+    - {fileID: 4300000, guid: fc0ef88b971c1cec54ed83d266214a3e, type: 2}
+    - {fileID: 4300000, guid: 011d3211efdcf8ea5f15254287bc75ff, type: 2}
+    - {fileID: 4300000, guid: 0cc6f0a0ff5a7bfa1c524b9db5faf0a8, type: 2}
+    fps: 8
+    speed: 6.5
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 16
+    damage: 22
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: SkeletonGold
+    material: {fileID: 2100000, guid: de6bb4804e3c61540915546bccb68f6e, type: 2}
+    frames:
+    - {fileID: 4300000, guid: f478b9adf2d8de4d242d872cefe6d3fb, type: 2}
+    - {fileID: 4300000, guid: 9fa921cb6a69c6262e51b7ea015501e0, type: 2}
+    - {fileID: 4300000, guid: 62f6d5eefc728dd2c0a3e048ad898d3f, type: 2}
+    - {fileID: 4300000, guid: 36865abc64a1087c15af67aa3b9fbc84, type: 2}
+    - {fileID: 4300000, guid: c4ada4508245786f7063ee8ccc7d27a4, type: 2}
+    - {fileID: 4300000, guid: fc0ef88b971c1cec54ed83d266214a3e, type: 2}
+    - {fileID: 4300000, guid: 011d3211efdcf8ea5f15254287bc75ff, type: 2}
+    - {fileID: 4300000, guid: 0cc6f0a0ff5a7bfa1c524b9db5faf0a8, type: 2}
+    fps: 8
+    speed: 6
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 50
+    damage: 25
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: SkeletonXp
+    material: {fileID: 2100000, guid: e34e6ff0bc78f14aee674db498e25644, type: 2}
+    frames:
+    - {fileID: 4300000, guid: f478b9adf2d8de4d242d872cefe6d3fb, type: 2}
+    - {fileID: 4300000, guid: 9fa921cb6a69c6262e51b7ea015501e0, type: 2}
+    - {fileID: 4300000, guid: 62f6d5eefc728dd2c0a3e048ad898d3f, type: 2}
+    - {fileID: 4300000, guid: 36865abc64a1087c15af67aa3b9fbc84, type: 2}
+    - {fileID: 4300000, guid: c4ada4508245786f7063ee8ccc7d27a4, type: 2}
+    - {fileID: 4300000, guid: fc0ef88b971c1cec54ed83d266214a3e, type: 2}
+    - {fileID: 4300000, guid: 011d3211efdcf8ea5f15254287bc75ff, type: 2}
+    - {fileID: 4300000, guid: 0cc6f0a0ff5a7bfa1c524b9db5faf0a8, type: 2}
+    fps: 8
+    speed: 6
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 50
+    damage: 25
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: Slime
+    material: {fileID: 2100000, guid: cb886de91c70374637fc733305d3c196, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 5c2bf02d103f95c0d61349c6fc6c2766, type: 2}
+    - {fileID: 4300000, guid: 3cb651d1459d5bda316ce13f347f6e1e, type: 2}
+    - {fileID: 4300000, guid: 8149c0f1c92b6033ca9541a373d4e23d, type: 2}
+    - {fileID: 4300000, guid: 528603052639f5669309448040126ec6, type: 2}
+    - {fileID: 4300000, guid: 439b4f031290fad147e82ba241d99a86, type: 2}
+    - {fileID: 4300000, guid: 8705d46861ccc8bafb78da4209ddfa1b, type: 2}
+    - {fileID: 4300000, guid: c9c7a2c8b08a47d15af482262f9ee415, type: 2}
+    - {fileID: 4300000, guid: ba2ae79e6d9aebeccab14b479237b3bc, type: 2}
+    - {fileID: 4300000, guid: d330fbc7c6d1cf60beef895f03c1cc45, type: 2}
+    - {fileID: 4300000, guid: 2b13574a809decd12747a4175ef8350a, type: 2}
+    - {fileID: 4300000, guid: c02e188814388de227904e9f29e83680, type: 2}
+    - {fileID: 4300000, guid: d080f20cd20fcf977d66958456e202b2, type: 2}
+    - {fileID: 4300000, guid: 5536d19ffba3d574ea4bc0732afa0906, type: 2}
+    - {fileID: 4300000, guid: 2bec10164f4e7d7b29927470b10320a4, type: 2}
+    - {fileID: 4300000, guid: a0c6a7c9c74d672e21ddbd15f25ec195, type: 2}
+    fps: 6
+    speed: 6.5
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 6
+    damage: 8
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: Tumblebone_0
+    material: {fileID: 2100000, guid: 391880ceb6088d2db0417a2b5531044e, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 4acdd137d122f6196c1dcbec55fb81dd, type: 2}
+    - {fileID: 4300000, guid: 23d65664d5e6458a8726ed2ddfcafbab, type: 2}
+    - {fileID: 4300000, guid: 73ce4eead1952913ce3bb08b659d7f14, type: 2}
+    - {fileID: 4300000, guid: b66d5cdcf4edd8a9567b909a832c4d5d, type: 2}
+    - {fileID: 4300000, guid: 59e669f7b923c120f28c29710a618907, type: 2}
+    - {fileID: 4300000, guid: b3b82e17a6edbbcd7ad45fd8835ec905, type: 2}
+    - {fileID: 4300000, guid: 958ab9e5cb6bec816ecd34b5716082d0, type: 2}
+    - {fileID: 4300000, guid: 5be9927ac1694a4f7101be04aa92b939, type: 2}
+    - {fileID: 4300000, guid: 358c2aa07f0ee23303a71764316dd0a1, type: 2}
+    - {fileID: 4300000, guid: 352a2c0cf3c0e2a5cdf54c0cc99213e9, type: 2}
+    - {fileID: 4300000, guid: d71fcc62fddaa40537a9c9fe1cd30f94, type: 2}
+    - {fileID: 4300000, guid: 02a5010d16be4b01a9600c1d245b70fc, type: 2}
+    fps: 15
+    speed: 11
+    spawnAfter: 0.03
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 7
+    damage: 9
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: Wisp_0
+    material: {fileID: 2100000, guid: 7ea99b817e0177c39049a6f9cce71142, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 06d1701232855d1321c04ece3c86f36d, type: 2}
+    - {fileID: 4300000, guid: 6e811a0f16dd3b8571f35a02b4601b90, type: 2}
+    - {fileID: 4300000, guid: 8f447352bdccb73b0eccc9dc182844b7, type: 2}
+    - {fileID: 4300000, guid: 85b78aac5445adbf07b4f24f2b8308f0, type: 2}
+    - {fileID: 4300000, guid: 487dfe1ce2a6b358c551cdfdbe508cad, type: 2}
+    - {fileID: 4300000, guid: 654535565b8e4de66d9612078f37ffee, type: 2}
+    - {fileID: 4300000, guid: 0b17cf29378e33cd6d9eb9e0a149a493, type: 2}
+    - {fileID: 4300000, guid: 03512d681265f0de444cc3d64d367197, type: 2}
+    fps: 8
+    speed: 7.5
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 1
+    hp: 8
+    damage: 13
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: Zombie
+    material: {fileID: 2100000, guid: 67afe6a5c7955071f19c04d454146adb, type: 2}
+    frames:
+    - {fileID: 4300000, guid: fbda3f766943051461b6503481de3101, type: 2}
+    - {fileID: 4300000, guid: 5153c6bed23ac5adedaad808400a8e13, type: 2}
+    - {fileID: 4300000, guid: b5bcb25e928c748b097b7dbec2ba1c43, type: 2}
+    - {fileID: 4300000, guid: dcb95dcb28eb354fdd239af84d8ef133, type: 2}
+    - {fileID: 4300000, guid: c700b76705676ebe2e50932ceed1c35d, type: 2}
+    - {fileID: 4300000, guid: de518702c1547f1f3a41e84ae2c5057e, type: 2}
+    - {fileID: 4300000, guid: e68f6ab0b8d21954dcc8c5cec427a29d, type: 2}
+    - {fileID: 4300000, guid: 27a9556abcd6053c632a77b659711c96, type: 2}
+    - {fileID: 4300000, guid: 0bbf95b81b6031c5fb7119c41e702a53, type: 2}
+    - {fileID: 4300000, guid: 363a5d433861645f50251b5b0ff88c83, type: 2}
+    - {fileID: 4300000, guid: 1eb682216a6ec4b5ea7878d9cecfe03d, type: 2}
+    - {fileID: 4300000, guid: f4722b941d2b9ee43db17c27071b0bba, type: 2}
+    - {fileID: 4300000, guid: 6cf75dac09d8ee479065ef55c1f78dcb, type: 2}
+    - {fileID: 4300000, guid: 7e4650e21df29ac9d0cf987c435adc0b, type: 2}
+    - {fileID: 4300000, guid: 28e889c241c79f6b21a0d182bf885acf, type: 2}
+    - {fileID: 4300000, guid: 171389a6e362d99cc3c848b1a9fde672, type: 2}
+    fps: 8
+    speed: 6.5
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 12
+    damage: 20
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []
+  - id: _Test
+    material: {fileID: 2100000, guid: f397cae7a4da47cdf856284d2fe3a4b5, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 50090163cc235ca5d1b500bebf781a1c, type: 2}
+    - {fileID: 4300000, guid: 88369df53d23375d9d730abb3691137f, type: 2}
+    - {fileID: 4300000, guid: 57aebbec874cd7d41b74d8a15bc1042b, type: 2}
+    - {fileID: 4300000, guid: 83b94fdfa202971fb16bfce52b694216, type: 2}
+    - {fileID: 4300000, guid: c52bf7359929a81ff1a95d6be4290e26, type: 2}
+    - {fileID: 4300000, guid: d2dd76c73f6d193b63821ac9c27869dd, type: 2}
+    fps: 9
+    speed: 7
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: 15
+    damage: 20
+    shield: 0
+    xp: 1
+    minDistance: 60
+    maxDistance: 120
+    attacks: []
+  - id: _Test2
+    material: {fileID: 2100000, guid: 9854a22040781b87602b2cecf2969b66, type: 2}
+    frames:
+    - {fileID: 4300000, guid: 0d2e6acc5cae13acee1136c66391d8d1, type: 2}
+    fps: 0
+    speed: 0
+    spawnAfter: 0
+    rotation: {x: -90, y: 0, z: 0}
+    flying: 0
+    hp: -2147483648
+    damage: 9999
+    shield: 0
+    xp: 1
+    minDistance: 0
+    maxDistance: 0
+    attacks: []

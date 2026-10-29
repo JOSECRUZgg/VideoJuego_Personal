@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0ca77576d0d6ec349acbcb85933a5299
+timeCreated: 1515529231
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109065
+  packageName: Altar Ruins Free
+  packageVersion: 2.0
+  assetPath: Assets/Altar_Ruins_FREE/Art/Textures/Old/Material/Tree.mat
+  uploadId: 707405

@@ -1,0 +1,570 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b31784fb2a5cf40b1c86335853162b, type: 3}
+  m_Name: OriginalContentCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::OriginalContentCatalog
+  characters:
+  - id: Clank
+    displayName: CL4NK
+    weaponId: mb_revolver
+    originalWeapon: WeaponRevolver
+    prefab: {fileID: 1709254077376921, guid: 81914c22000877f485b16e25a03c100c, type: 3}
+    icon: {fileID: 2800000, guid: 3eb7cedff20fac42a50f5a18f3d6e024, type: 3}
+    legacy: 0
+  - id: Megachad
+    displayName: Megachad
+    weaponId: mb_aura
+    originalWeapon: WeaponAura
+    prefab: {fileID: 1709254077376921, guid: 5aafe50c87cf6046f256bc3f8a583bb3, type: 3}
+    icon: {fileID: 2800000, guid: ab043bf371518aaefdddd8f0b0554584, type: 3}
+    legacy: 1
+  - id: Knight
+    displayName: Sir Oofie
+    weaponId: mb_sword
+    originalWeapon: WeaponSword
+    prefab: {fileID: 1709254077376921, guid: ba2eeab5738cb9185ab00a25300cd029, type: 3}
+    icon: {fileID: 2800000, guid: d7601afefdec6c8b3f1e3e8fcbf7359c, type: 3}
+    legacy: 2
+  - id: Calcium
+    displayName: Calcio
+    weaponId: mb_bone
+    originalWeapon: WeaponBone
+    prefab: {fileID: 1709254077376921, guid: e789e55162db8ac1a0aa29ee98f1f393, type: 3}
+    icon: {fileID: 2800000, guid: 4ca9038548a6ce0ccd4a1c29d015f2bf, type: 3}
+    legacy: 3
+  - id: Amog
+    displayName: Amog
+    weaponId: mb_poison
+    originalWeapon: WeaponPoisonFlask
+    prefab: {fileID: 1709254077376921, guid: 95559ab3ce766559e49cc1200e8e3ea8, type: 3}
+    icon: {fileID: 2800000, guid: 04833139a8d045842fb0888fd9caac73, type: 3}
+    legacy: 4
+  - id: Bush_0
+    displayName: Arbusto
+    weaponId: mb_sniper
+    originalWeapon: WeaponSniper
+    prefab: {fileID: 1709254077376921, guid: 6d679567daf1937a3a9f7730c6a79a1a, type: 3}
+    icon: {fileID: 2800000, guid: fc1eb9b45cff28293c7535eb01d92d42, type: 3}
+    legacy: 4
+  - id: Athena
+    displayName: Atenea
+    weaponId: mb_aegis
+    originalWeapon: WeaponAegis
+    prefab: {fileID: 1709254077376921, guid: e300a5f3f39168f0c7ecf24c95f25fdc, type: 3}
+    icon: {fileID: 2800000, guid: e3e1f4c11cb10265fda59d9a7c417166, type: 3}
+    legacy: 4
+  - id: Bandit_0
+    displayName: Bandido
+    weaponId: mb_dexecutioner
+    originalWeapon: WeaponDexecutioner
+    prefab: {fileID: 1709254077376921, guid: ecce88d01cf81bd7af516dfdc55de1c6, type: 3}
+    icon: {fileID: 2800000, guid: 148d32047791ada86788c524ab1d4fef, type: 3}
+    legacy: 4
+  - id: Birdo
+    displayName: Birdo
+    weaponId: mb_tornado
+    originalWeapon: WeaponTornado
+    prefab: {fileID: 1709254077376921, guid: ed6a00e6635db1b03fedb50ea472b6c4, type: 3}
+    icon: {fileID: 2800000, guid: 8c005d90e6a92fed9e10ef014af06b48, type: 3}
+    legacy: 4
+  - id: Dicehead
+    displayName: Cabezadado
+    weaponId: mb_dice
+    originalWeapon: WeaponDice
+    prefab: {fileID: 1709254077376921, guid: c8d0ffbeee121a210514b5e1bf2d9efa, type: 3}
+    icon: {fileID: 2800000, guid: 10c5d40a39c94aa883097285e0bdb48b, type: 3}
+    legacy: 4
+  - id: Spaceman
+    displayName: Hombre Espacial
+    weaponId: mb_blackhole
+    originalWeapon: WeaponBlackHole
+    prefab: {fileID: 1709254077376921, guid: 642bcfec29db5393c170256a9bd05324, type: 3}
+    icon: {fileID: 2800000, guid: 63e7c4708ef2ca5ba5a61e7f87bf4ec6, type: 3}
+    legacy: 4
+  - id: Monke
+    displayName: Monke
+    weaponId: mb_banana
+    originalWeapon: WeaponBananarang
+    prefab: {fileID: 1709254077376921, guid: 427ad7501fc2d117815775638fe3fcf4, type: 3}
+    icon: {fileID: 2800000, guid: 7d0804674ac146f7b57e2a2d9a35e2dc, type: 3}
+    legacy: 4
+  - id: Ninja
+    displayName: Ninja
+    weaponId: mb_katana
+    originalWeapon: WeaponKatana
+    prefab: {fileID: 1709254077376921, guid: 37225c5024ca48b5748520a79b921fd3, type: 3}
+    icon: {fileID: 2800000, guid: 1f0570f818b4a6f11d11d86799d90c05, type: 3}
+    legacy: 4
+  - id: Noelle
+    displayName: Noelle
+    weaponId: mb_frost
+    originalWeapon: WeaponFrostWalker
+    prefab: {fileID: 1709254077376921, guid: 1ab7eabcadbf5fb1c858ff35f09c1c43, type: 3}
+    icon: {fileID: 2800000, guid: b5a3ddb3d4f6b35d6841fe5d6259bef7, type: 3}
+    legacy: 4
+  - id: Ogre
+    displayName: Ogro
+    weaponId: mb_axe
+    originalWeapon: WeaponAxe
+    prefab: {fileID: 1709254077376921, guid: 76708bc77b4825d1e91550b39683e241, type: 3}
+    icon: {fileID: 2800000, guid: c03f5499fb4020a0254451618600ec38, type: 3}
+    legacy: 4
+  - id: Roberto
+    displayName: Roberto
+    weaponId: mb_scythe
+    originalWeapon: WeaponScythe
+    prefab: {fileID: 1709254077376921, guid: fc9ccaec8ebb680efc2d775cfe2018a3, type: 3}
+    icon: {fileID: 2800000, guid: d37dd0006fd3fec21f6f05bea3c83710, type: 3}
+    legacy: 4
+  - id: Robinette
+    displayName: Robinetta
+    weaponId: mb_bow
+    originalWeapon: WeaponBow
+    prefab: {fileID: 1709254077376921, guid: 0017a6eaae030f1340370ca044f952da, type: 3}
+    icon: {fileID: 2800000, guid: fcff3b7b7538fb33cc6e2386e223d552, type: 3}
+    legacy: 4
+  - id: Chadwell
+    displayName: Sir Chadwell
+    weaponId: mb_corrupted
+    originalWeapon: WeaponCorruptedSword
+    prefab: {fileID: 1709254077376921, guid: 26983ec90d75bd39b72710e134a11d06, type: 3}
+    icon: {fileID: 2800000, guid: f5a3602e36115693a860f6b1607623b9, type: 3}
+    legacy: 4
+  - id: TonyMcZoom
+    displayName: Tony McVeloz
+    weaponId: mb_dagger
+    originalWeapon: WeaponWirelessDagger
+    prefab: {fileID: 1709254077376921, guid: dfbf31003e01ba67613f39e3cc036eca, type: 3}
+    icon: {fileID: 2800000, guid: 2f750e6d6385036a7af0f044448ddf99, type: 3}
+    legacy: 4
+  - id: Vlad
+    displayName: Vlad
+    weaponId: mb_blood
+    originalWeapon: WeaponBloodMagic
+    prefab: {fileID: 1709254077376921, guid: 560448cf9f30404678ef3ff9fc401e87, type: 3}
+    icon: {fileID: 2800000, guid: 90f98d51c89a508f9be850fca971dde7, type: 3}
+    legacy: 4
+  - id: Fox
+    displayName: Zorro
+    weaponId: mb_fire
+    originalWeapon: WeaponFireStaff
+    prefab: {fileID: 1709254077376921, guid: 2f8d57d1ee3fda6b2c54465184d8612c, type: 3}
+    icon: {fileID: 2800000, guid: 3fd00dc458d810cd8ec0bf72beeb6d44, type: 3}
+    legacy: 4
+  desertStages:
+  - id: StageDesert1
+    decorations:
+    - prefabs:
+      - {fileID: 1709254077376921, guid: dde767897514a7caf6e152f3ee3edbf3, type: 3}
+      - {fileID: 1709254077376921, guid: 8c6657b8cddee5e17019cf6cfab7370d, type: 3}
+      - {fileID: 1709254077376921, guid: 4de89fd38f168545f3a31fa752a75ccd, type: 3}
+      - {fileID: 1709254077376921, guid: 170d2a694de46f62aeb8c452637aa78c, type: 3}
+      amount: 8
+      scaleMin: 1.3
+      scaleMax: 3
+      checkRadius: 0.5
+      maxSlopeAngle: 90
+      upOffset: 0
+      alignWithNormal: 0
+    - prefabs:
+      - {fileID: 1709254077376921, guid: 2d68e9b6fdfb0751353c4f68889cf2d2, type: 3}
+      - {fileID: 1709254077376921, guid: 61501c843279b994b898c607f6fc433c, type: 3}
+      amount: 15
+      scaleMin: 1
+      scaleMax: 1.25
+      checkRadius: 0.5
+      maxSlopeAngle: 90
+      upOffset: 0
+      alignWithNormal: 1
+    - prefabs:
+      - {fileID: 1709254077376921, guid: de2c05cceca8a6952ff8532b33b62f8e, type: 3}
+      - {fileID: 1709254077376921, guid: 010b9e317b64eab91372317b16894d72, type: 3}
+      - {fileID: 1709254077376921, guid: c073d76cecb085fabe0a1da5a38c2bdc, type: 3}
+      - {fileID: 1709254077376921, guid: 9967a41abbaa7231ee3248825ec52d40, type: 3}
+      - {fileID: 1709254077376921, guid: c994578fdc9c27ad6f1cc5c4057c4e74, type: 3}
+      - {fileID: 1709254077376921, guid: 4f789ec774c9eb5db73b70c2de9dcbbd, type: 3}
+      - {fileID: 1709254077376921, guid: 08888b853f2fddadd9082eb095bd4d35, type: 3}
+      amount: 60
+      scaleMin: 0.75
+      scaleMax: 6
+      checkRadius: 1
+      maxSlopeAngle: 90
+      upOffset: 0
+      alignWithNormal: 1
+    - prefabs:
+      - {fileID: 1709254077376921, guid: 5c19965cde84d33244dc4bae91eb3cfa, type: 3}
+      - {fileID: 1709254077376921, guid: a124467368927e5ae801fdcdfed27375, type: 3}
+      amount: 120
+      scaleMin: 0.8
+      scaleMax: 4
+      checkRadius: 1
+      maxSlopeAngle: 90
+      upOffset: 0
+      alignWithNormal: 0
+    - prefabs:
+      - {fileID: 1709254077376921, guid: a4a9cf0600b866cb5c86cb4032adf9a5, type: 3}
+      - {fileID: 1709254077376921, guid: 0e00a4583e800380cfca5c6a2b1f3b36, type: 3}
+      amount: 60
+      scaleMin: 1
+      scaleMax: 4
+      checkRadius: 1
+      maxSlopeAngle: 90
+      upOffset: 0
+      alignWithNormal: 1
+    - prefabs:
+      - {fileID: 1709254077376921, guid: 1e79b92239ddc8b4bcf5ed96fab2c188, type: 3}
+      - {fileID: 1709254077376921, guid: 891dee21a52c4db0e816fbee42d61826, type: 3}
+      amount: 15
+      scaleMin: 0.5
+      scaleMax: 2.5
+      checkRadius: 1
+      maxSlopeAngle: 90
+      upOffset: 0
+      alignWithNormal: 0
+    - prefabs:
+      - {fileID: 1709254077376921, guid: 4e464dd083af36d5c3bcdec9b132be7a, type: 3}
+      amount: 300
+      scaleMin: 0.75
+      scaleMax: 1.5
+      checkRadius: 0.5
+      maxSlopeAngle: 90
+      upOffset: 0
+      alignWithNormal: 0
+    noiseScale: 100
+    persistence: 0.4
+    lacunarity: 3
+    heightMultiplier: 11
+    uniformScale: 1
+    octaves: 2
+    seed: 257
+    offset: {x: 0, y: 0}
+    heightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.0012604217
+        value: 0.0009657135
+        inSlope: 1.8899171
+        outSlope: 1.8899171
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.07179417
+        value: 0.101341546
+        inSlope: 0.11407343
+        outSlope: 0.11407343
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.33453494
+        value: 0.11087306
+        inSlope: 0.11798476
+        outSlope: 0.11798476
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.8312482
+        value: 0.572668
+        inSlope: -0.005948752
+        outSlope: -0.005948752
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    terrainMaterial: {fileID: 2100000, guid: bdfa6feea10ce404583be70435754953, type: 2}
+    ambient: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
+    sunlight: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+    sky: {r: 0.9254902, g: 0.8156863, b: 0.5921569, a: 1}
+    lightIntensity: 1
+    farClip: 800
+  - id: StageDesert2
+    decorations:
+    - prefabs:
+      - {fileID: 1709254077376921, guid: dde767897514a7caf6e152f3ee3edbf3, type: 3}
+      - {fileID: 1709254077376921, guid: 8c6657b8cddee5e17019cf6cfab7370d, type: 3}
+      - {fileID: 1709254077376921, guid: 4de89fd38f168545f3a31fa752a75ccd, type: 3}
+      - {fileID: 1709254077376921, guid: 170d2a694de46f62aeb8c452637aa78c, type: 3}
+      amount: 8
+      scaleMin: 2
+      scaleMax: 5
+      checkRadius: 0.5
+      maxSlopeAngle: 90
+      upOffset: 0
+      alignWithNormal: 0
+    - prefabs:
+      - {fileID: 1709254077376921, guid: 2d68e9b6fdfb0751353c4f68889cf2d2, type: 3}
+      - {fileID: 1709254077376921, guid: 61501c843279b994b898c607f6fc433c, type: 3}
+      amount: 15
+      scaleMin: 1
+      scaleMax: 1.25
+      checkRadius: 0.5
+      maxSlopeAngle: 90
+      upOffset: 0
+      alignWithNormal: 1
+    - prefabs:
+      - {fileID: 1709254077376921, guid: de2c05cceca8a6952ff8532b33b62f8e, type: 3}
+      - {fileID: 1709254077376921, guid: 010b9e317b64eab91372317b16894d72, type: 3}
+      - {fileID: 1709254077376921, guid: c073d76cecb085fabe0a1da5a38c2bdc, type: 3}
+      - {fileID: 1709254077376921, guid: 9967a41abbaa7231ee3248825ec52d40, type: 3}
+      - {fileID: 1709254077376921, guid: c994578fdc9c27ad6f1cc5c4057c4e74, type: 3}
+      - {fileID: 1709254077376921, guid: 4f789ec774c9eb5db73b70c2de9dcbbd, type: 3}
+      - {fileID: 1709254077376921, guid: 08888b853f2fddadd9082eb095bd4d35, type: 3}
+      amount: 60
+      scaleMin: 0.75
+      scaleMax: 6
+      checkRadius: 1
+      maxSlopeAngle: 90
+      upOffset: 0
+      alignWithNormal: 1
+    - prefabs:
+      - {fileID: 1709254077376921, guid: 5c19965cde84d33244dc4bae91eb3cfa, type: 3}
+      - {fileID: 1709254077376921, guid: a124467368927e5ae801fdcdfed27375, type: 3}
+      amount: 120
+      scaleMin: 0.8
+      scaleMax: 4
+      checkRadius: 1
+      maxSlopeAngle: 90
+      upOffset: 0
+      alignWithNormal: 0
+    - prefabs:
+      - {fileID: 1709254077376921, guid: a4a9cf0600b866cb5c86cb4032adf9a5, type: 3}
+      - {fileID: 1709254077376921, guid: 0e00a4583e800380cfca5c6a2b1f3b36, type: 3}
+      amount: 60
+      scaleMin: 1
+      scaleMax: 4
+      checkRadius: 1
+      maxSlopeAngle: 90
+      upOffset: 0
+      alignWithNormal: 1
+    - prefabs:
+      - {fileID: 1709254077376921, guid: 1e79b92239ddc8b4bcf5ed96fab2c188, type: 3}
+      - {fileID: 1709254077376921, guid: 891dee21a52c4db0e816fbee42d61826, type: 3}
+      amount: 15
+      scaleMin: 0.5
+      scaleMax: 2.5
+      checkRadius: 1
+      maxSlopeAngle: 90
+      upOffset: 0
+      alignWithNormal: 0
+    - prefabs:
+      - {fileID: 1709254077376921, guid: 4e464dd083af36d5c3bcdec9b132be7a, type: 3}
+      amount: 300
+      scaleMin: 0.75
+      scaleMax: 1.5
+      checkRadius: 0.5
+      maxSlopeAngle: 90
+      upOffset: 0
+      alignWithNormal: 0
+    noiseScale: 100
+    persistence: 0.4
+    lacunarity: 3
+    heightMultiplier: 11
+    uniformScale: 1.1
+    octaves: 2
+    seed: 257
+    offset: {x: 0, y: 0}
+    heightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.0012604217
+        value: 0.0009657135
+        inSlope: 1.8899171
+        outSlope: 1.8899171
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.07179417
+        value: 0.101341546
+        inSlope: 0.11407343
+        outSlope: 0.11407343
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.33453494
+        value: 0.11087306
+        inSlope: 0.11798476
+        outSlope: 0.11798476
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.8312482
+        value: 0.572668
+        inSlope: -0.005948752
+        outSlope: -0.005948752
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    terrainMaterial: {fileID: 2100000, guid: fd55be06c2d17b3498d1e8d33b8bf2c6, type: 2}
+    ambient: {r: 0.4655, g: 0.5624, b: 0.95, a: 1}
+    sunlight: {r: 0.3647059, g: 0.63529414, b: 1, a: 1}
+    sky: {r: 0.4227483, g: 0.62109035, b: 0.9433962, a: 1}
+    lightIntensity: 1
+    farClip: 1100
+  - id: StageDesert3
+    decorations:
+    - prefabs:
+      - {fileID: 1709254077376921, guid: dde767897514a7caf6e152f3ee3edbf3, type: 3}
+      - {fileID: 1709254077376921, guid: 8c6657b8cddee5e17019cf6cfab7370d, type: 3}
+      - {fileID: 1709254077376921, guid: 4de89fd38f168545f3a31fa752a75ccd, type: 3}
+      - {fileID: 1709254077376921, guid: 170d2a694de46f62aeb8c452637aa78c, type: 3}
+      amount: 14
+      scaleMin: 2
+      scaleMax: 6
+      checkRadius: 0.5
+      maxSlopeAngle: 90
+      upOffset: 0
+      alignWithNormal: 0
+    - prefabs:
+      - {fileID: 1709254077376921, guid: 2d68e9b6fdfb0751353c4f68889cf2d2, type: 3}
+      - {fileID: 1709254077376921, guid: 61501c843279b994b898c607f6fc433c, type: 3}
+      amount: 15
+      scaleMin: 1
+      scaleMax: 1.25
+      checkRadius: 0.5
+      maxSlopeAngle: 90
+      upOffset: 0
+      alignWithNormal: 1
+    - prefabs:
+      - {fileID: 1709254077376921, guid: de2c05cceca8a6952ff8532b33b62f8e, type: 3}
+      - {fileID: 1709254077376921, guid: 010b9e317b64eab91372317b16894d72, type: 3}
+      - {fileID: 1709254077376921, guid: c073d76cecb085fabe0a1da5a38c2bdc, type: 3}
+      - {fileID: 1709254077376921, guid: 9967a41abbaa7231ee3248825ec52d40, type: 3}
+      - {fileID: 1709254077376921, guid: c994578fdc9c27ad6f1cc5c4057c4e74, type: 3}
+      - {fileID: 1709254077376921, guid: 4f789ec774c9eb5db73b70c2de9dcbbd, type: 3}
+      - {fileID: 1709254077376921, guid: 08888b853f2fddadd9082eb095bd4d35, type: 3}
+      amount: 100
+      scaleMin: 0.75
+      scaleMax: 8
+      checkRadius: 1
+      maxSlopeAngle: 90
+      upOffset: 0
+      alignWithNormal: 1
+    - prefabs:
+      - {fileID: 1709254077376921, guid: 5c19965cde84d33244dc4bae91eb3cfa, type: 3}
+      - {fileID: 1709254077376921, guid: a124467368927e5ae801fdcdfed27375, type: 3}
+      amount: 120
+      scaleMin: 0.8
+      scaleMax: 4
+      checkRadius: 1
+      maxSlopeAngle: 90
+      upOffset: 0
+      alignWithNormal: 0
+    - prefabs:
+      - {fileID: 1709254077376921, guid: a4a9cf0600b866cb5c86cb4032adf9a5, type: 3}
+      - {fileID: 1709254077376921, guid: 0e00a4583e800380cfca5c6a2b1f3b36, type: 3}
+      amount: 60
+      scaleMin: 1
+      scaleMax: 4
+      checkRadius: 1
+      maxSlopeAngle: 90
+      upOffset: 0
+      alignWithNormal: 1
+    - prefabs:
+      - {fileID: 1709254077376921, guid: 1e79b92239ddc8b4bcf5ed96fab2c188, type: 3}
+      - {fileID: 1709254077376921, guid: 891dee21a52c4db0e816fbee42d61826, type: 3}
+      amount: 50
+      scaleMin: 0.5
+      scaleMax: 2.5
+      checkRadius: 1
+      maxSlopeAngle: 90
+      upOffset: 0
+      alignWithNormal: 0
+    - prefabs:
+      - {fileID: 1709254077376921, guid: 4e464dd083af36d5c3bcdec9b132be7a, type: 3}
+      amount: 300
+      scaleMin: 0.75
+      scaleMax: 1.5
+      checkRadius: 0.5
+      maxSlopeAngle: 90
+      upOffset: 0
+      alignWithNormal: 0
+    noiseScale: 40
+    persistence: 0.5
+    lacunarity: 3
+    heightMultiplier: 11
+    uniformScale: 1.2
+    octaves: 2
+    seed: 257
+    offset: {x: 0, y: 0}
+    heightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.0012604217
+        value: 0.0009657135
+        inSlope: 1.8899171
+        outSlope: 1.8899171
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.07179417
+        value: 0.101341546
+        inSlope: 0.11407343
+        outSlope: 0.11407343
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.33453494
+        value: 0.11087306
+        inSlope: 0.11798476
+        outSlope: 0.11798476
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.8312482
+        value: 0.572668
+        inSlope: -0.005948752
+        outSlope: -0.005948752
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    terrainMaterial: {fileID: 2100000, guid: 0d72aa7f57e67164abde4f17a8d03b33, type: 2}
+    ambient: {r: 0.82, g: 0.63, b: 0.62, a: 1}
+    sunlight: {r: 0.8784314, g: 0.7411765, b: 0.7176471, a: 1}
+    sky: {r: 0.5764706, g: 0.1882353, b: 0.1882353, a: 1}
+    lightIntensity: 0.75
+    farClip: 1400
+  animatedChest: {fileID: 1709254077376921, guid: 09fcdee27a961ba5fb41bb9a8a8b9bcb, type: 3}
+  chestController: {fileID: 9100000, guid: 806cf36edfbcd82140123edca42764ab, type: 2}
+  chestOpenSound: {fileID: 8300000, guid: b00ba680bdfd5485452f7836ce10e287, type: 3}
+  chestTakeSound: {fileID: 8300000, guid: 6347a67d9e7ea41d6ae0ac1f74282db5, type: 3}
+  schemaVersion: 3
