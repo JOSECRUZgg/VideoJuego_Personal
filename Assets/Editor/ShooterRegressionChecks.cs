@@ -97,6 +97,21 @@ public static class ShooterRegressionChecks
             var m3 = RuntimeMaterialCache.Get(shader, Color.red, Color.red * 2f);
             Check(m1 == m2 && m1 != m3, "Materials reuse matching keys and preserve distinct emission");
 
+            var colliderProbe = new GameObject("UnreadableMeshColliderProbe");
+            var probeMesh = new Mesh();
+            probeMesh.vertices = new[] { Vector3.zero, Vector3.right, Vector3.up };
+            probeMesh.triangles = new[] { 0, 1, 2 };
+            probeMesh.RecalculateBounds();
+            probeMesh.UploadMeshData(true);
+            var probeFilter = colliderProbe.AddComponent<MeshFilter>();
+            probeFilter.sharedMesh = probeMesh;
+            typeof(ArenaEnricher).GetMethod("AddSceneryCollider", BindingFlags.Static | BindingFlags.NonPublic)
+                .Invoke(null, new object[] { probeFilter });
+            Check(colliderProbe.GetComponent<BoxCollider>() != null && colliderProbe.GetComponent<MeshCollider>() == null,
+                "Unreadable scenery meshes use a box collider in player builds");
+            UnityEngine.Object.DestroyImmediate(colliderProbe);
+            UnityEngine.Object.DestroyImmediate(probeMesh);
+
             int initialCount = EnemyHealth3D.AliveCount;
             var enemy = new GameObject("RegressionEnemy");
             enemy.AddComponent<EnemyHealth3D>();

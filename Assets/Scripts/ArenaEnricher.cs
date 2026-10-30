@@ -770,10 +770,7 @@ public partial class ArenaEnricher : MonoBehaviour
         {
             MeshFilter mf = obj.GetComponentInChildren<MeshFilter>();
             if (mf != null && mf.sharedMesh != null)
-            {
-                var mc = mf.gameObject.AddComponent<MeshCollider>();
-                mc.convex = false;
-            }
+                AddSceneryCollider(mf);
             else
             {
                 var bc = obj.AddComponent<BoxCollider>();
@@ -783,6 +780,20 @@ public partial class ArenaEnricher : MonoBehaviour
         }
 
         return obj;
+    }
+
+    static void AddSceneryCollider(MeshFilter filter)
+    {
+        Mesh mesh = filter.sharedMesh;
+        if (mesh.isReadable)
+            filter.gameObject.AddComponent<MeshCollider>().sharedMesh = mesh;
+        else
+        {
+            // Imported visual meshes may drop CPU data in a player build.
+            var box = filter.gameObject.AddComponent<BoxCollider>();
+            box.center = mesh.bounds.center;
+            box.size = Vector3.Max(mesh.bounds.size, Vector3.one * .05f);
+        }
     }
 
     private static readonly Dictionary<string, GameObject> s_PrefabCache = new Dictionary<string, GameObject>();

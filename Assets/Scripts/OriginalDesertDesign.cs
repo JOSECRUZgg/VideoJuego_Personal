@@ -91,7 +91,7 @@ public partial class ArenaEnricher
                 {
                     filter.gameObject.isStatic = true;
                     if (solid && filter.sharedMesh != null && filter.GetComponent<MeshRenderer>() != null)
-                        filter.gameObject.AddComponent<MeshCollider>().sharedMesh = filter.sharedMesh;
+                        AddSceneryCollider(filter);
                 }
             }
         }
